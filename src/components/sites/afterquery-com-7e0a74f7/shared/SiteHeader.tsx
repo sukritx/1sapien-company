@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 
-import { Wordmark } from "../shared/Logo";
+import { Wordmark } from "./Logo";
 import type { NavLink } from "../../../../types/sites/afterquery-com-7e0a74f7";
 
 const NAV_LINKS: NavLink[] = [
@@ -17,7 +17,11 @@ const MOBILE_LINKS: NavLink[] = [
   { label: "Careers", href: "/careers" },
 ];
 
-export function SiteHeader() {
+type SiteHeaderProps = {
+  activeHref?: string;
+};
+
+export function SiteHeader({ activeHref }: SiteHeaderProps) {
   const [open, setOpen] = useState(false);
 
   return (
@@ -25,14 +29,21 @@ export function SiteHeader() {
       <nav className="mx-auto flex h-[70px] max-w-[1136px] items-center justify-between gap-6 px-4 md:px-8">
         <Wordmark href="/" />
         <ul className="hidden items-center gap-7 lg:flex">
-          {NAV_LINKS.map(({ label, href }) => (
-            <li key={href}>
-              <a href={href} className="group relative inline-block text-sm font-medium transition-colors duration-150 text-ink/80 hover:text-ink">
-                {label}
-                <span aria-hidden="true" className="absolute -bottom-0.5 left-0 h-px w-full origin-left bg-ink/90 transition-transform duration-300 ease-[cubic-bezier(0.23,0.98,0.56,1)] scale-x-0 group-hover:scale-x-100" />
-              </a>
-            </li>
-          ))}
+          {NAV_LINKS.map(({ label, href }) => {
+            const active = href === activeHref;
+            return (
+              <li key={href}>
+                <a
+                  href={href}
+                  aria-current={active ? "page" : undefined}
+                  className={`group relative inline-block text-sm font-medium transition-colors duration-150 hover:text-ink ${active ? "text-ink" : "text-ink/80"}`}
+                >
+                  {label}
+                  <span aria-hidden="true" className={`absolute -bottom-0.5 left-0 h-px w-full origin-left bg-ink/90 transition-transform duration-300 ease-[cubic-bezier(0.23,0.98,0.56,1)] ${active ? "scale-x-100" : "scale-x-0 group-hover:scale-x-100"}`} />
+                </a>
+              </li>
+            );
+          })}
         </ul>
         <div className="flex items-center gap-2">
           <a href="/careers" className="inline-flex items-center justify-center gap-2 rounded-full font-sans font-medium leading-none transition-[scale,background-color,color,filter] duration-150 ease-out outline-none focus-visible:ring-2 focus-visible:ring-ink/40 focus-visible:ring-offset-2 focus-visible:ring-offset-bg active:scale-[0.96] bg-ink/[0.06] text-ink/80 hover:bg-ink/[0.1] h-8 px-3 text-sm max-lg:hidden">Careers</a>

@@ -1,4 +1,4 @@
-import { Wordmark } from "../shared/Logo";
+import { Wordmark } from "./Logo";
 import type { FooterColumn } from "../../../../types/sites/afterquery-com-7e0a74f7";
 
 const COLUMNS: FooterColumn[] = [
