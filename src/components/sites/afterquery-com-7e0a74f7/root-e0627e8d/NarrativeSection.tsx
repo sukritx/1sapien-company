@@ -27,7 +27,7 @@ export function NarrativeSection() {
         <Reveal>
           <p className="font-sans text-sm leading-[1.45] text-ink/60 mb-4">Our solution</p>
           <h2 className="font-serif text-ink tracking-[-0.01em] text-balance text-2xl leading-[1.15] text-ink/80">We turn real-world work into training data.</h2>
-          <p className="font-sans text-lg leading-[1.45] text-ink/60 mt-4 font-medium">AfterQuery is an applied research lab curating data solutions for frontier foundation model development. Models trained on outputs plateau. Models trained on reasoning improve. We build datasets that reflect how experts actually solve problems — step by step, decision by decision.</p>
+          <p className="font-sans text-lg leading-[1.45] text-ink/60 mt-4 font-medium">1Sapien is an applied research lab curating data solutions for frontier foundation model development. Models trained on outputs plateau. Models trained on reasoning improve. We build datasets that reflect how experts actually solve problems — step by step, decision by decision.</p>
           <p className="font-sans text-lg leading-[1.45] text-ink/60 mt-4 font-medium">Our data includes:</p>
         </Reveal>
       </div>

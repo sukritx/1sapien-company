@@ -37,7 +37,7 @@ export function BlogHeader() {
             <time dateTime="2026-07-02">Jul 2, 2026</time>
           </div>
           <h1 className="font-serif text-ink tracking-[-0.01em] text-balance text-[2.375rem] leading-[1.05] mt-4 text-center leading-[1.05] text-ink/80">
-            How AfterQuery Helped NVIDIA Hill-Climb GDPval
+            How 1Sapien Helped NVIDIA Hill-Climb GDPval
           </h1>
           <div className="mt-8 flex flex-wrap items-center justify-center gap-x-6 gap-y-3">
             {AUTHORS.map((author) => (

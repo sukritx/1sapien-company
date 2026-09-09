@@ -61,7 +61,7 @@ export function SiteFooter() {
                 </ul>
               </nav>
             ))}
-            <p className="col-span-4 whitespace-nowrap text-xs font-medium text-ink/60 md:col-auto">AfterQuery © 2026</p>
+            <p className="col-span-4 whitespace-nowrap text-xs font-medium text-ink/60 md:col-auto">1Sapien © 2026</p>
           </div>
         </div>
       </div>

@@ -27,7 +27,7 @@ const ROWS = [
   },
   {
     href: "/blog/afterquery-celebrates-the-release-of-motif-3",
-    title: "AfterQuery Celebrates the Release of Motif 3 and Served as Sole Data Partner",
+    title: "1Sapien Celebrates the Release of Motif 3 and Served as Sole Data Partner",
     image: IMG("afterquery-celebrates-the-release-of-motif-3-cover7.jpg"),
     authors: [
       { name: "Sam J.", avatar: AV(AUTHORS.samJung) },

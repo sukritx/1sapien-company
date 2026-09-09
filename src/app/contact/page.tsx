@@ -4,9 +4,9 @@ import { SiteFooter } from "@/components/sites/afterquery-com-7e0a74f7/shared/Si
 import { ContactSection } from "@/components/sites/afterquery-com-7e0a74f7/contact-dc38169e/ContactSection";
 
 export const metadata: Metadata = {
-  title: "AfterQuery",
+  title: "1Sapien",
   description:
-    "AfterQuery is an applied research lab curating data solutions to accelerate foundation model development.",
+    "1Sapien is an applied research lab curating data solutions to accelerate foundation model development.",
 };
 
 export default function ContactPage() {

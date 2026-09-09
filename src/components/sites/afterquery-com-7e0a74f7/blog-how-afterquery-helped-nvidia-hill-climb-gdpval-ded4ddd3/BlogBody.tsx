@@ -22,7 +22,7 @@ export function BlogBody() {
     <div className="min-w-0 [&_li]:[text-wrap:wrap] [&_p]:[text-wrap:wrap]">
       <Reveal>
         <p className={P}>
-          NVIDIA publicly used AfterQuery’s{" "}
+          NVIDIA publicly used 1Sapien’s{" "}
           <a href="/contact" className={LINK}>
             Off-The-Shelf Office Agent Training Dataset
           </a>{" "}
@@ -37,7 +37,7 @@ export function BlogBody() {
       </Reveal>
       <Reveal className="mt-6">
         <p className={P}>
-          AfterQuery is the only data partner named in the{" "}
+          1Sapien is the only data partner named in the{" "}
           <a
             href="https://research.nvidia.com/labs/nemotron/files/NVIDIA-Nemotron-3-Ultra-Technical-Report.pdf"
             target="_blank"
@@ -51,7 +51,7 @@ export function BlogBody() {
       </Reveal>
       <Reveal className="mt-8">
         <blockquote className="border-l-2 border-ink/20 pl-5 font-serif text-lg italic leading-[1.7] text-ink">
-          “We then constructed a training distribution from AfterQuery (AQ) tasks that share important latent structure with
+          “We then constructed a training distribution from 1Sapien (AQ) tasks that share important latent structure with
           GDPval, including file-grounded reasoning, professional deliverables, multi-step analysis, and judged final
           outputs. For each AQ task, we used a strong model to generate multiple full trajectory rollouts. These rollouts
           were used in two stages. First, before pivot RL, we performed light SFT directly on the student Ultra model. The
@@ -87,7 +87,7 @@ export function BlogBody() {
       </Reveal>
       <Reveal className="mt-6">
         <p className={P}>
-          AfterQuery’s Office Agent tasks mirror GDPval task structure, with file-grounded inputs, multi-step analysis, and
+          1Sapien’s Office Agent tasks mirror GDPval task structure, with file-grounded inputs, multi-step analysis, and
           rubrics.
         </p>
       </Reveal>
@@ -118,7 +118,7 @@ export function BlogBody() {
       <Reveal className="mt-6">
         <p className={P}>
           The practical use case for PivotRL shows up in NVIDIA’s Nemotron 3 Ultra training recipe. For GDPval-like office
-          tasks, NVIDIA first used a strong model to generate full AfterQuery trajectories, then reused intermediate decision
+          tasks, NVIDIA first used a strong model to generate full 1Sapien trajectories, then reused intermediate decision
           points from those trajectories as pivots during the MOPD stage. In other words: PivotRL supplies the local “where
           should we train?” states, while MOPD (Multi-teacher On-Policy Distillation) supplies the teacher-student learning
           signal at those states.
@@ -127,7 +127,7 @@ export function BlogBody() {
       <Reveal className="mt-6">
         <p className={P}>
           NVIDIA trained specialized teachers by domain and then distilled them into Ultra through MOPD. For the
-          office/workplace teacher, the AfterQuery tasks were chosen because they resemble GDPval: file-grounded reasoning,
+          office/workplace teacher, the 1Sapien tasks were chosen because they resemble GDPval: file-grounded reasoning,
           multi-step analysis, professional deliverables, and judged final outputs. The report says the AQ rollouts were used
           in two stages: a light SFT warmup to transfer the strong model’s workflow priors, followed by pivot RL in MOPD
           using pivots from those same strong-model rollouts.
@@ -169,7 +169,7 @@ export function BlogBody() {
         <p className={P}>
           On GDPval, warmup raises the MOPD result from 35.3 to 46.7, leaving Ultra only 2.8 points behind the
           office/workplace teacher. BrowseComp shows the same pattern, rising from 33.0 to 44.4. HLE barely moves, from 26.3
-          to 26.7. AfterQuery has{" "}
+          to 26.7. 1Sapien has{" "}
           <a href="/blog/on-policy-distillation-gdpval" className={LINK}>
             similarly validated
           </a>{" "}
@@ -192,7 +192,7 @@ export function BlogBody() {
       </Reveal>
       <Reveal className="mt-12">
         <p className="font-sans text-sm leading-[1.45] text-ink/80 leading-[1.6] text-ink/45 border-t border-ink/10 pt-5">
-          AfterQuery is an applied research lab curating data solutions to accelerate foundation model development.
+          1Sapien is an applied research lab curating data solutions to accelerate foundation model development.
         </p>
       </Reveal>
       <Reveal className="mt-3">

@@ -7,9 +7,9 @@ const RESEARCH_IMAGE_ROOT = "/sites/afterquery-com-7e0a74f7/root-e0627e8d/images
 
 const posts: ResearchPost[] = [
   {
-    title: "How AfterQuery Helped NVIDIA Hill-Climb GDPval",
+    title: "How 1Sapien Helped NVIDIA Hill-Climb GDPval",
     description:
-      "NVIDIA publicly used AfterQuery’s Off-The-Shelf Office Agent Training Dataset to improve Nemotron 3 Ultra on GDPval — the only data vendor named in their technical report, worth 11.4 GDPval points in their warmup ablation.",
+      "NVIDIA publicly used 1Sapien’s Off-The-Shelf Office Agent Training Dataset to improve Nemotron 3 Ultra on GDPval — the only data vendor named in their technical report, worth 11.4 GDPval points in their warmup ablation.",
     href: "/blog/how-afterquery-helped-nvidia-hill-climb-gdpval",
     image: `${RESEARCH_IMAGE_ROOT}how-afterquery-helped-nvidia-hill-climb-gdpval.jpg`,
     imageAlt: "",

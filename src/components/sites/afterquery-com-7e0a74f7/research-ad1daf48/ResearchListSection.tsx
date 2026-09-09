@@ -32,7 +32,7 @@ const posts: PostData[] = [
   },
   {
     href: "/blog/afterquery-celebrates-the-release-of-motif-3",
-    title: "AfterQuery Celebrates the Release of Motif 3 and Served as Sole Data Partner",
+    title: "1Sapien Celebrates the Release of Motif 3 and Served as Sole Data Partner",
     cover: "afterquery-celebrates-the-release-of-motif-3-cover7.jpg",
     authors: [
       { name: "Sam J.", avatar: "sam-jung.jpg" },
@@ -43,7 +43,7 @@ const posts: PostData[] = [
   },
   {
     href: "/blog/how-afterquery-helped-nvidia-hill-climb-gdpval",
-    title: "How AfterQuery Helped NVIDIA Hill-Climb GDPval",
+    title: "How 1Sapien Helped NVIDIA Hill-Climb GDPval",
     cover: "how-afterquery-helped-nvidia-hill-climb-gdpval.jpg",
     authors: [
       { name: "Spencer M.", avatar: "spencer.jpg" },
@@ -97,7 +97,7 @@ const posts: PostData[] = [
   },
   {
     href: "/blog/how-afterquery-expert-data-drives-model-performance-on-t2-bench",
-    title: "How AfterQuery Expert Data Drives Model Performance on τ²-bench",
+    title: "How 1Sapien Expert Data Drives Model Performance on τ²-bench",
     cover: "how-afterquery-expert-data-drives-model-performance-on-t2-bench.jpg",
     authors: [
       { name: "Michael E.", avatar: "michael.jpg" },
@@ -157,7 +157,7 @@ const posts: PostData[] = [
   },
   {
     href: "/blog/the-afterquery-thesis",
-    title: "The AfterQuery Thesis",
+    title: "The 1Sapien Thesis",
     cover: "the-afterquery-thesis.jpg",
     authors: [{ name: "Spencer M.", avatar: "spencer.jpg" }],
     dateText: "Oct 20, 2025",

@@ -46,11 +46,17 @@ export function LogoMask({
 export function Wordmark({ href = "/", className }: { href?: string; className?: string }) {
   return (
     <a
-      aria-label="AfterQuery — home"
+      aria-label="1Sapien — home"
       href={href}
       className={`inline-flex items-center transition-opacity duration-150 hover:opacity-70 ${className ?? ""}`}
     >
-      <span aria-hidden="true" className="block h-[22px] w-[130px] bg-ink" style={{ maskImage: "url(/sites/afterquery-com-7e0a74f7/shared/brand/afterquery-logo.svg)", WebkitMaskImage: "url(/sites/afterquery-com-7e0a74f7/shared/brand/afterquery-logo.svg)", maskRepeat: "no-repeat", WebkitMaskRepeat: "no-repeat", maskSize: "contain", WebkitMaskSize: "contain", maskPosition: "left center", WebkitMaskPosition: "left center" }} />
+      <img
+        src="/images/1sapien-black-text.png"
+        alt="1Sapien"
+        width={97}
+        height={22}
+        className="block h-[22px] w-auto"
+      />
     </a>
   );
 }

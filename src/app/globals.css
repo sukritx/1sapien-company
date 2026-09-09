@@ -1,6 +1,6 @@
 @import "tailwindcss";
 
-/* ===== AfterQuery self-hosted fonts (ABC Diatype / Martina Plantijn / Fragment Mono) ===== */
+/* ===== 1Sapien self-hosted fonts (ABC Diatype / Martina Plantijn / Fragment Mono) ===== */
 @font-face {
   font-family: "sans";
   src: url("/sites/afterquery-com-7e0a74f7/shared/fonts/ABCDiatype-Regular.woff2") format("woff2");

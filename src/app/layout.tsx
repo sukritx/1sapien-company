@@ -4,9 +4,9 @@ import "./globals.css";
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.afterquery.com"),
   title: "Expert Data for Frontier AI",
-  applicationName: "AfterQuery",
+  applicationName: "1Sapien",
   description:
-    "AfterQuery captures how experts reason and turns real-world professional work into high-quality training data for frontier foundation models.",
+    "1Sapien captures how experts reason and turns real-world professional work into high-quality training data for frontier foundation models.",
   robots: { index: true, follow: true, "max-image-preview": "large" },
   alternates: { canonical: "/" },
   icons: {
@@ -18,19 +18,19 @@ export const metadata: Metadata = {
     apple: [{ url: "/sites/afterquery-com-7e0a74f7/shared/seo/apple-icon.png", sizes: "180x180" }],
   },
   openGraph: {
-    title: "Expert Data for Frontier AI - AfterQuery",
+    title: "Expert Data for Frontier AI - 1Sapien",
     description:
-      "AfterQuery captures how experts reason and turns real-world professional work into high-quality training data for frontier foundation models.",
+      "1Sapien captures how experts reason and turns real-world professional work into high-quality training data for frontier foundation models.",
     url: "https://www.afterquery.com",
-    siteName: "AfterQuery",
+    siteName: "1Sapien",
     images: ["/sites/afterquery-com-7e0a74f7/shared/seo/og-default.png"],
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Expert Data for Frontier AI - AfterQuery",
+    title: "Expert Data for Frontier AI - 1Sapien",
     description:
-      "AfterQuery captures how experts reason and turns real-world professional work into high-quality training data for frontier foundation models.",
+      "1Sapien captures how experts reason and turns real-world professional work into high-quality training data for frontier foundation models.",
     images: ["/sites/afterquery-com-7e0a74f7/shared/seo/og-default.png"],
   },
 };

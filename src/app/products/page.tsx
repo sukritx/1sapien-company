@@ -4,9 +4,9 @@ import { SiteFooter } from "@/components/sites/afterquery-com-7e0a74f7/shared/Si
 import { ProductsSection } from "@/components/sites/afterquery-com-7e0a74f7/products-b2ce6bb6/ProductsSection";
 
 export const metadata: Metadata = {
-  title: "AI Training Data Products - AfterQuery",
+  title: "AI Training Data Products - 1Sapien",
   description:
-    "Explore AfterQuery products for rubric- and verifier-based RL, tool-calling environments, supervised fine-tuning, and preference training.",
+    "Explore 1Sapien products for rubric- and verifier-based RL, tool-calling environments, supervised fine-tuning, and preference training.",
 };
 
 export default function ProductsPage() {

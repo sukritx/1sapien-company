@@ -13,9 +13,9 @@ const TOC_ITEMS = [
 ];
 
 export const metadata: Metadata = {
-  title: "How AfterQuery Helped NVIDIA Hill-Climb GDPval - AfterQuery",
+  title: "How 1Sapien Helped NVIDIA Hill-Climb GDPval - 1Sapien",
   description:
-    "NVIDIA publicly used AfterQuery's Off-The-Shelf Office Agent Training Dataset to improve Nemotron 3 Ultra on GDPval — the only data vendor named in their technical report, worth 11.4 GDPval points in their warmup ablation.",
+    "NVIDIA publicly used 1Sapien's Off-The-Shelf Office Agent Training Dataset to improve Nemotron 3 Ultra on GDPval — the only data vendor named in their technical report, worth 11.4 GDPval points in their warmup ablation.",
 };
 
 export default function BlogPostPage() {

@@ -13,7 +13,7 @@ const cards = [
     href: "https://legora.com/bar",
     color: "rgba(45, 73, 149, 0.8)",
     description:
-      "Legora’s Benchmark for Agentic Reasoning: end-to-end legal tasks drawn from real cases across 28 practice areas, with a public case co-created with AfterQuery.",
+      "Legora’s Benchmark for Agentic Reasoning: end-to-end legal tasks drawn from real cases across 28 practice areas, with a public case co-created with 1Sapien.",
   },
 ];
 
@@ -41,7 +41,7 @@ export function BenchmarkCards() {
               </a>
             ))}
           </div>
-          <p className="font-sans text-sm leading-[1.45] text-ink/60 mt-5 text-center">Select benchmarks co-created by AfterQuery</p>
+          <p className="font-sans text-sm leading-[1.45] text-ink/60 mt-5 text-center">Select benchmarks co-created by 1Sapien</p>
         </Reveal>
       </div>
     </section>
