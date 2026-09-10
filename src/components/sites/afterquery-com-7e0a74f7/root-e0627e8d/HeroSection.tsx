@@ -8,11 +8,11 @@ export function HeroSection() {
       <div className="mx-auto w-[min(100%_-_2rem,688px)]">
         <Stagger>
           <div>
-            <h1 className="font-serif text-ink tracking-[-0.01em] text-balance text-2xl leading-[1.15] max-w-[28ch]">We teach machines how experts think.</h1>
+            <h1 className="font-serif text-ink tracking-[-0.01em] text-balance text-2xl leading-[1.15] max-w-[28ch]">We help you target more customers and understand their needs.</h1>
           </div>
           <div>
-            <p aria-label="The future of AI won’t be trained on more data, it will be trained on better thinking." className="relative mt-5 max-w-[46ch] font-serif text-xl leading-[1.2] text-ink/55">
-              <Typewriter text="The future of AI won’t be trained on more data, it will be trained on better thinking." />
+            <p aria-label="The future of business isn't just about a good product; connecting with the customer is key." className="relative mt-5 max-w-[46ch] font-serif text-xl leading-[1.2] text-ink/55">
+              <Typewriter text="The future of business isn't just about a good product; connecting with the customer is key." />
             </p>
           </div>
           <div>
