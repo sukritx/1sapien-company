@@ -34,3 +34,18 @@ export type FooterColumn = {
   links: NavLink[];
   external?: boolean;
 };
+
+export type LegalSection = {
+  id: string;
+  heading: string;
+  paragraphs?: string[];
+  bullets?: string[];
+};
+
+export type LegalDocument = {
+  title: string;
+  updatedText: string;
+  updatedISO: string;
+  intro: string;
+  sections: LegalSection[];
+};

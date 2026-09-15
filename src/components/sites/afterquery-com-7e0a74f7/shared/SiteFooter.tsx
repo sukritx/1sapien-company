@@ -16,14 +16,6 @@ const COLUMNS: FooterColumn[] = [
     ],
   },
   {
-    heading: "Social",
-    links: [
-      { label: "LinkedIn", href: "https://www.linkedin.com/company/afterquery" },
-      { label: "X", href: "https://x.com/afterquery" },
-    ],
-    external: true,
-  },
-  {
     heading: "Terms & Policies",
     links: [
       { label: "Terms of Service", href: "/terms" },
@@ -38,7 +30,7 @@ export function SiteFooter() {
       <div className="mx-auto max-w-[1136px] px-4 py-16 md:px-8">
         <div className="flex flex-col gap-10 md:flex-row md:items-start md:justify-between">
           <Wordmark href="/" />
-          <div className="grid grid-cols-4 gap-x-3 gap-y-8 md:flex md:flex-wrap md:gap-x-10">
+          <div className="grid grid-cols-3 gap-x-3 gap-y-8 md:flex md:flex-wrap md:gap-x-10">
             {COLUMNS.map(({ heading, links, external }) => (
               <nav key={heading} aria-label={heading} className="min-w-0 md:min-w-[7rem]">
                 <h2 className="font-sans text-[11px] font-medium leading-[1.3] text-ink/90 md:text-sm">{heading}</h2>
@@ -58,7 +50,7 @@ export function SiteFooter() {
                 </ul>
               </nav>
             ))}
-            <p className="col-span-4 whitespace-nowrap text-xs font-medium text-ink/60 md:col-auto">1Sapien © 2026</p>
+            <p className="col-span-3 whitespace-nowrap text-xs font-medium text-ink/60 md:col-auto">1Sapien © 2026</p>
           </div>
         </div>
       </div>

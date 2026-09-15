@@ -2,7 +2,7 @@
 
 const INTERESTS = [
   { label: "Increase number of reviews", value: "increase-reviews" },
-  { label: "Increase visibility of your business locally", value: "increase-local-visibility" },
+  { label: "Boost visibility", value: "increase-local-visibility" },
   { label: "Websites That increase booking", value: "websites-that-increase-booking" },
 ];
 
@@ -111,7 +111,7 @@ export function ContactForm() {
         type="submit"
         className="mt-1 inline-flex h-14 w-full items-center justify-center rounded-full font-sans text-base font-medium transition-[background-color,opacity,scale,filter] duration-150 ease-out bg-ink/[0.08] text-ink hover:bg-ink/[0.12] active:scale-[0.99] disabled:cursor-not-allowed disabled:opacity-60 outline-none focus-visible:ring-2 focus-visible:ring-ink/40 focus-visible:ring-offset-2 focus-visible:ring-offset-bg"
       >
-        Book my free demo
+        Book free strategy call
       </button>
     </form>
   );

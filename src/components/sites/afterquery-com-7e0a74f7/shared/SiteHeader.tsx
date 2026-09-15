@@ -42,7 +42,7 @@ export function SiteHeader({ activeHref }: SiteHeaderProps) {
           })}
         </ul>
         <div className="flex items-center gap-2">
-          <a href="/contact" className="inline-flex items-center justify-center gap-2 rounded-full font-sans font-medium leading-none transition-[scale,background-color,color,filter] duration-150 ease-out outline-none focus-visible:ring-2 focus-visible:ring-ink/40 focus-visible:ring-offset-2 focus-visible:ring-offset-bg active:scale-[0.96] bg-ink/90 text-bg hover:bg-ink h-8 px-3 text-sm max-md:hidden">Book a Free Demo</a>
+          <a href="/contact" className="inline-flex items-center justify-center gap-2 rounded-full font-sans font-medium leading-none transition-[scale,background-color,color,filter] duration-150 ease-out outline-none focus-visible:ring-2 focus-visible:ring-ink/40 focus-visible:ring-offset-2 focus-visible:ring-offset-bg active:scale-[0.96] bg-ink/90 text-bg hover:bg-ink h-8 px-3 text-sm max-md:hidden">Book free strategy call</a>
           <button type="button" aria-label={open ? "Close menu" : "Open menu"} aria-expanded={open} onClick={() => setOpen(!open)} className="grid size-10 place-items-center text-ink lg:hidden">
             <span className="relative block h-4 w-5">
               <span className={`absolute left-0 top-0 h-0.5 w-5 bg-ink transition-transform duration-200 ease-out ${open ? "translate-y-[7px] rotate-45" : ""}`} />
