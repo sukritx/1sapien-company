@@ -7,7 +7,7 @@ import type { NavLink } from "../../../../types/sites/afterquery-com-7e0a74f7";
 
 const NAV_LINKS: NavLink[] = [
   { label: "Services", href: "/products" },
-  { label: "Results", href: "/research" },
+  { label: "Blogs", href: "/research" },
   { label: "Contact", href: "/contact" },
 ];
 

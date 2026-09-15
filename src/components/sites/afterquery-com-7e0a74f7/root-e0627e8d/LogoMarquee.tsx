@@ -2,7 +2,7 @@ import { Reveal } from "../shared/Reveal";
 
 const logos = [
   { name: "Chula", url: "/images/chula.png", className: "h-[18px] md:h-[28px]" },
-  { name: "Deloitte", url: "/images/deloitte.png", className: "h-[18px] md:h-[28px]" },
+  { name: "Deloitte", url: "/images/deloitte.png", className: "h-[18px] md:h-[50px]" },
   { name: "JPMorgan", url: "/images/jpmorgan.svg", className: "h-[13px] md:h-[21px]" },
   { name: "KBank", url: "/images/kbank.png", className: "h-[18px] md:h-[28px]" },
 ];

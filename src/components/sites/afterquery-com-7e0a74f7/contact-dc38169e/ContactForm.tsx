@@ -1,9 +1,17 @@
 "use client";
 
 const INTERESTS = [
-  { label: "Automated Reviews", value: "automated-reviews" },
-  { label: "Local SEO", value: "local-seo" },
-  { label: "Websites That Convert", value: "websites-that-convert" },
+  { label: "Increase number of reviews", value: "increase-reviews" },
+  { label: "Increase visibility of your business locally", value: "increase-local-visibility" },
+  { label: "Websites That increase booking", value: "websites-that-increase-booking" },
+];
+
+const LOCATION_COUNTS = [
+  { label: "1 location", value: "1" },
+  { label: "2 - 5 locations", value: "2-5" },
+  { label: "6 - 10 locations", value: "6-10" },
+  { label: "11 - 25 locations", value: "11-25" },
+  { label: "More than 25 locations", value: "more-than-25" },
 ];
 
 type FieldCellProps = {
@@ -38,11 +46,10 @@ export function ContactForm() {
   return (
     <form className="relative flex flex-col gap-5" onSubmit={(e) => e.preventDefault()}>
       <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
-        <FieldCell id="firstName" name="firstName" label="First name" required placeholder="First" />
-        <FieldCell id="lastName" name="lastName" label="Last name" required placeholder="Last" />
-        <FieldCell id="company" name="company" label="Business" placeholder="Your business" />
-        <FieldCell id="jobTitle" name="jobTitle" label="Role" placeholder="Owner / manager" />
-        <FieldCell id="email" name="email" type="email" label="Email" required placeholder="you@yourbusiness.com" span />
+        <FieldCell id="company" name="company" label="Business name" required placeholder="Your business" />
+        <FieldCell id="fullName" name="fullName" label="Full name" required placeholder="Jane Doe" />
+        <FieldCell id="email" name="email" type="email" label="Email" required placeholder="you@yourbusiness.com" />
+        <FieldCell id="phone" name="phone" type="tel" label="Phone number" required placeholder="(555) 123-4567" />
       </div>
       <fieldset className="flex flex-col gap-2">
         <legend className="mb-2 font-sans text-sm text-ink/60">What are you interested in?</legend>
@@ -69,16 +76,31 @@ export function ContactForm() {
           </label>
         ))}
       </fieldset>
-      <label className="flex flex-col gap-2">
-        <span className="font-sans text-sm text-ink/60">Tell us about your business</span>
-        <textarea
-          required
-          name="description"
-          rows={4}
-          placeholder="What do you do, and where do you operate?"
-          className="w-full border-0 border-b border-ink/15 bg-transparent pb-1.5 font-sans text-base text-ink placeholder:text-ink/40 outline-none transition-colors duration-150 focus:border-ink resize-y"
-        />
-      </label>
+      <fieldset className="flex flex-col gap-2">
+        <legend className="mb-2 font-sans text-sm text-ink/60">Number of Locations</legend>
+        {LOCATION_COUNTS.map((option) => (
+          <label key={option.value} className="group flex cursor-pointer items-center gap-2">
+            <input type="radio" name="locationCount" value={option.value} required className="peer sr-only" />
+            <span
+              aria-hidden="true"
+              className="grid size-5 shrink-0 place-items-center rounded-[4px] border border-ink/30 transition-colors duration-150 peer-checked:border-ink peer-checked:bg-ink peer-focus-visible:ring-2 peer-focus-visible:ring-ink/40 peer-focus-visible:ring-offset-2 peer-focus-visible:ring-offset-bg"
+            >
+              <svg
+                viewBox="0 0 12 12"
+                className="size-3 text-bg opacity-0 transition-opacity duration-150 peer-checked:opacity-100"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth={2}
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                <path d="M2.5 6.5 5 9l4.5-5" />
+              </svg>
+            </span>
+            <span className="font-sans text-sm text-ink/80 transition-colors duration-150 group-hover:text-ink">{option.label}</span>
+          </label>
+        ))}
+      </fieldset>
       <input type="hidden" name="formStartedAt" />
       <input type="hidden" name="turnstileToken" />
       <div className="absolute left-[-10000px] top-auto h-px w-px overflow-hidden" aria-hidden="true">
