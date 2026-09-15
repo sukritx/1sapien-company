@@ -11,7 +11,7 @@ export function HeroSection() {
             <h1 className="font-serif text-ink tracking-[-0.01em] text-balance text-2xl leading-[1.15] max-w-[28ch]">We make you outrank your competition.</h1>
           </div>
           <div>
-            <p aria-label="The moment a job is done, we text your customer and make leaving a review one tap." className="relative mt-5 max-w-[46ch] font-serif text-xl leading-[1.2] text-ink/55">
+            <p aria-label="We set up the system for you to make your business visible to more customers, get more jobs booked, receive more reviews, and repeat." className="relative mt-5 max-w-[46ch] font-serif text-xl leading-[1.2] text-ink/55">
               <Typewriter text="We set up the system for you to make your business visible to more customers, get more jobs booked, receive more reviews, and repeat." />
             </p>
           </div>
