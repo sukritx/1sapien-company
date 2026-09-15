@@ -3,19 +3,16 @@ import type { FooterColumn } from "../../../../types/sites/afterquery-com-7e0a74
 
 const COLUMNS: FooterColumn[] = [
   {
-    heading: "Lab",
+    heading: "Services",
     links: [
-      { label: "Research & Blog", href: "/research" },
-      { label: "Leaderboards", href: "/leaderboard" },
-      { label: "Knowledge", href: "/knowledge" },
+      { label: "Services", href: "/products" },
+      { label: "Results", href: "/research" },
     ],
   },
   {
     heading: "Company",
     links: [
-      { label: "Products", href: "/products" },
-      { label: "For Enterprises", href: "/solutions" },
-      { label: "Careers", href: "/careers" },
+      { label: "Contact", href: "/contact" },
     ],
   },
   {

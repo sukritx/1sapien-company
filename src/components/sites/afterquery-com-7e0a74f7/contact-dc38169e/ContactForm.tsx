@@ -1,10 +1,9 @@
 "use client";
 
 const INTERESTS = [
-  { label: "Request a Custom Dataset", value: "request-custom-dataset" },
-  { label: "Browse our Off-the-shelf Datasets", value: "browse-off-the-shelf-datasets" },
-  { label: "Enterprise AI Consulting", value: "enterprise-ai-consulting" },
-  { label: "End-to-end Enterprise AI Implementation", value: "end-to-end-enterprise-ai-implementation" },
+  { label: "Automated Reviews", value: "automated-reviews" },
+  { label: "Local SEO", value: "local-seo" },
+  { label: "Websites That Convert", value: "websites-that-convert" },
 ];
 
 type FieldCellProps = {
@@ -41,9 +40,9 @@ export function ContactForm() {
       <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
         <FieldCell id="firstName" name="firstName" label="First name" required placeholder="First" />
         <FieldCell id="lastName" name="lastName" label="Last name" required placeholder="Last" />
-        <FieldCell id="company" name="company" label="Company" placeholder="Your company" />
-        <FieldCell id="jobTitle" name="jobTitle" label="Job title" placeholder="Title" />
-        <FieldCell id="email" name="email" type="email" label="Work email" required placeholder="Your work email" span />
+        <FieldCell id="company" name="company" label="Business" placeholder="Your business" />
+        <FieldCell id="jobTitle" name="jobTitle" label="Role" placeholder="Owner / manager" />
+        <FieldCell id="email" name="email" type="email" label="Email" required placeholder="you@yourbusiness.com" span />
       </div>
       <fieldset className="flex flex-col gap-2">
         <legend className="mb-2 font-sans text-sm text-ink/60">What are you interested in?</legend>
@@ -71,12 +70,12 @@ export function ContactForm() {
         ))}
       </fieldset>
       <label className="flex flex-col gap-2">
-        <span className="font-sans text-sm text-ink/60">Tell us more about your project</span>
+        <span className="font-sans text-sm text-ink/60">Tell us about your business</span>
         <textarea
           required
           name="description"
           rows={4}
-          placeholder="Enter a description..."
+          placeholder="What do you do, and where do you operate?"
           className="w-full border-0 border-b border-ink/15 bg-transparent pb-1.5 font-sans text-base text-ink placeholder:text-ink/40 outline-none transition-colors duration-150 focus:border-ink resize-y"
         />
       </label>
@@ -90,7 +89,7 @@ export function ContactForm() {
         type="submit"
         className="mt-1 inline-flex h-14 w-full items-center justify-center rounded-full font-sans text-base font-medium transition-[background-color,opacity,scale,filter] duration-150 ease-out bg-ink/[0.08] text-ink hover:bg-ink/[0.12] active:scale-[0.99] disabled:cursor-not-allowed disabled:opacity-60 outline-none focus-visible:ring-2 focus-visible:ring-ink/40 focus-visible:ring-offset-2 focus-visible:ring-offset-bg"
       >
-        Submit
+        Book my free demo
       </button>
     </form>
   );

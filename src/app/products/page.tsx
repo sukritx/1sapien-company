@@ -4,9 +4,9 @@ import { SiteFooter } from "@/components/sites/afterquery-com-7e0a74f7/shared/Si
 import { ProductsSection } from "@/components/sites/afterquery-com-7e0a74f7/products-b2ce6bb6/ProductsSection";
 
 export const metadata: Metadata = {
-  title: "AI Training Data Products - 1Sapien",
+  title: "Local Growth Services - 1Sapien",
   description:
-    "Explore 1Sapien products for rubric- and verifier-based RL, tool-calling environments, supervised fine-tuning, and preference training.",
+    "Automated Google review requests, local SEO and map 3-pack rankings, and websites that turn visitors into booked jobs — for local businesses across the US and Europe.",
 };
 
 export default function ProductsPage() {

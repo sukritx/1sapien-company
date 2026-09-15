@@ -7,9 +7,9 @@ import { ResearchListSection } from "@/components/sites/afterquery-com-7e0a74f7/
 import { CoreResearchAreas } from "@/components/sites/afterquery-com-7e0a74f7/research-ad1daf48/CoreResearchAreas";
 
 export const metadata: Metadata = {
-  title: "AI Training Data Research - 1Sapien",
+  title: "Results & Case Studies - 1Sapien",
   description:
-    "1Sapien is an applied research lab curating data solutions to accelerate foundation model development.",
+    "See how local businesses grew their Google reviews, climbed the map 3-pack, and turned more visitors into booked jobs with 1Sapien.",
 };
 
 export default function ResearchPage() {

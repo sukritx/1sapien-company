@@ -4,9 +4,9 @@ import { SiteFooter } from "@/components/sites/afterquery-com-7e0a74f7/shared/Si
 import { ContactSection } from "@/components/sites/afterquery-com-7e0a74f7/contact-dc38169e/ContactSection";
 
 export const metadata: Metadata = {
-  title: "1Sapien",
+  title: "Book a Free Demo - 1Sapien",
   description:
-    "1Sapien is an applied research lab curating data solutions to accelerate foundation model development.",
+    "Book a free demo and see how 1Sapien turns finished jobs into 5-star Google reviews, higher local rankings, and booked work.",
 };
 
 export default function ContactPage() {

@@ -3,10 +3,10 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.afterquery.com"),
-  title: "Expert Data for Frontier AI",
+  title: "5-Star Reviews & Local SEO for Local Businesses",
   applicationName: "1Sapien",
   description:
-    "1Sapien captures how experts reason and turns real-world professional work into high-quality training data for frontier foundation models.",
+    "1Sapien turns every finished job into a 5-star Google review, ranks your business at the top of your service area, and builds websites that turn visitors into booked jobs — for local businesses across the US and Europe.",
   robots: { index: true, follow: true, "max-image-preview": "large" },
   alternates: { canonical: "/" },
   icons: {
@@ -18,9 +18,9 @@ export const metadata: Metadata = {
     apple: [{ url: "/sites/afterquery-com-7e0a74f7/shared/seo/apple-icon.png", sizes: "180x180" }],
   },
   openGraph: {
-    title: "Expert Data for Frontier AI - 1Sapien",
+    title: "5-Star Reviews & Local SEO for Local Businesses - 1Sapien",
     description:
-      "1Sapien captures how experts reason and turns real-world professional work into high-quality training data for frontier foundation models.",
+      "1Sapien turns every finished job into a 5-star Google review, ranks your business at the top of your service area, and builds websites that turn visitors into booked jobs — for local businesses across the US and Europe.",
     url: "https://www.afterquery.com",
     siteName: "1Sapien",
     images: ["/sites/afterquery-com-7e0a74f7/shared/seo/og-default.png"],
@@ -28,9 +28,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Expert Data for Frontier AI - 1Sapien",
+    title: "5-Star Reviews & Local SEO for Local Businesses - 1Sapien",
     description:
-      "1Sapien captures how experts reason and turns real-world professional work into high-quality training data for frontier foundation models.",
+      "1Sapien turns every finished job into a 5-star Google review, ranks your business at the top of your service area, and builds websites that turn visitors into booked jobs — for local businesses across the US and Europe.",
     images: ["/sites/afterquery-com-7e0a74f7/shared/seo/og-default.png"],
   },
 };

@@ -6,16 +6,12 @@ import { Wordmark } from "./Logo";
 import type { NavLink } from "../../../../types/sites/afterquery-com-7e0a74f7";
 
 const NAV_LINKS: NavLink[] = [
-  { label: "Research & Blog", href: "/research" },
-  { label: "Leaderboards", href: "/leaderboard" },
-  { label: "For Enterprises", href: "/solutions" },
-  { label: "Products", href: "/products" },
+  { label: "Services", href: "/products" },
+  { label: "Results", href: "/research" },
+  { label: "Contact", href: "/contact" },
 ];
 
-const MOBILE_LINKS: NavLink[] = [
-  ...NAV_LINKS,
-  { label: "Careers", href: "/careers" },
-];
+const MOBILE_LINKS: NavLink[] = NAV_LINKS;
 
 type SiteHeaderProps = {
   activeHref?: string;
@@ -46,8 +42,7 @@ export function SiteHeader({ activeHref }: SiteHeaderProps) {
           })}
         </ul>
         <div className="flex items-center gap-2">
-          <a href="/careers" className="inline-flex items-center justify-center gap-2 rounded-full font-sans font-medium leading-none transition-[scale,background-color,color,filter] duration-150 ease-out outline-none focus-visible:ring-2 focus-visible:ring-ink/40 focus-visible:ring-offset-2 focus-visible:ring-offset-bg active:scale-[0.96] bg-ink/[0.06] text-ink/80 hover:bg-ink/[0.1] h-8 px-3 text-sm max-lg:hidden">Careers</a>
-          <a href="/contact" className="inline-flex items-center justify-center gap-2 rounded-full font-sans font-medium leading-none transition-[scale,background-color,color,filter] duration-150 ease-out outline-none focus-visible:ring-2 focus-visible:ring-ink/40 focus-visible:ring-offset-2 focus-visible:ring-offset-bg active:scale-[0.96] bg-ink/90 text-bg hover:bg-ink h-8 px-3 text-sm max-md:hidden">Get data</a>
+          <a href="/contact" className="inline-flex items-center justify-center gap-2 rounded-full font-sans font-medium leading-none transition-[scale,background-color,color,filter] duration-150 ease-out outline-none focus-visible:ring-2 focus-visible:ring-ink/40 focus-visible:ring-offset-2 focus-visible:ring-offset-bg active:scale-[0.96] bg-ink/90 text-bg hover:bg-ink h-8 px-3 text-sm max-md:hidden">Book a Free Demo</a>
           <button type="button" aria-label={open ? "Close menu" : "Open menu"} aria-expanded={open} onClick={() => setOpen(!open)} className="grid size-10 place-items-center text-ink lg:hidden">
             <span className="relative block h-4 w-5">
               <span className={`absolute left-0 top-0 h-0.5 w-5 bg-ink transition-transform duration-200 ease-out ${open ? "translate-y-[7px] rotate-45" : ""}`} />
@@ -65,7 +60,7 @@ export function SiteHeader({ activeHref }: SiteHeaderProps) {
             </li>
           ))}
           <li className="px-2 pt-3">
-            <a href="/contact" className="inline-flex items-center justify-center gap-2 rounded-full font-sans font-medium leading-none transition-[scale,background-color,color,filter] duration-150 ease-out outline-none focus-visible:ring-2 focus-visible:ring-ink/40 focus-visible:ring-offset-2 focus-visible:ring-offset-bg active:scale-[0.96] bg-ink/90 text-bg hover:bg-ink h-9 px-4 text-sm w-full">Get data</a>
+            <a href="/contact" className="inline-flex items-center justify-center gap-2 rounded-full font-sans font-medium leading-none transition-[scale,background-color,color,filter] duration-150 ease-out outline-none focus-visible:ring-2 focus-visible:ring-ink/40 focus-visible:ring-offset-2 focus-visible:ring-offset-bg active:scale-[0.96] bg-ink/90 text-bg hover:bg-ink h-9 px-4 text-sm w-full">Book a Free Demo</a>
           </li>
         </ul>
       </div>

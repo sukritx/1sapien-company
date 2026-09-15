@@ -13,39 +13,25 @@ type ResearchArea = {
 
 const areas: ResearchArea[] = [
   {
-    title: "Computer Use",
+    title: "Automated Reviews",
     description:
-      "We’ve created training data and reinforcement learning environments that teach AI agents to navigate real software workflows end-to-end, capturing judgment calls and edge cases that only experienced practitioners recognize.",
+      "Review requests go out automatically after every completed job, with a one-tap link straight to your Google profile. We reply to every review and route unhappy customers to private feedback first — so your rating climbs while you work.",
     marker: "bg-accent-green",
     image: "/sites/afterquery-com-7e0a74f7/research-ad1daf48/images/computer-use.avif",
   },
   {
-    title: "Multimodal",
+    title: "Local SEO",
     description:
-      "We build datasets that pair language with the documents, screens, charts, and interfaces professionals work across — so models reason over real multimodal context, not just clean text.",
+      "We optimize your Google Business Profile, your site, and your local listings so you climb the map 3-pack and outrank competitors in your service area — more calls and more booked jobs every week.",
     marker: "bg-ink",
     image: "/sites/afterquery-com-7e0a74f7/research-ad1daf48/images/multimodal.avif",
   },
   {
-    title: "AI Safety & Security",
+    title: "Websites That Convert",
     description:
-      "We work with experts to surface adversarial scenarios and failure modes, building the red-team trajectories and guardrail data that matter when models operate in high-stakes settings.",
+      "A fast, mobile-first website built to turn visitors into booked jobs, with lead-capture forms, online booking, and instant follow-up — not a static brochure nobody reads.",
     marker: "bg-accent-gold",
     image: "/sites/afterquery-com-7e0a74f7/research-ad1daf48/images/ai-safety.avif",
-  },
-  {
-    title: "Data Quality & Curation",
-    description:
-      "We treat curation as research — designing rigorous review, grading, and validation methodologies so every example reflects how an expert would actually judge the work.",
-    marker: "bg-accent-taupe",
-    image: "/sites/afterquery-com-7e0a74f7/research-ad1daf48/images/data-quality.avif",
-  },
-  {
-    title: "Model Evaluation",
-    description:
-      "We design benchmarks and rubrics grounded in real professional tasks, measuring not just whether a model reaches the answer but whether it reasons the way an expert would.",
-    marker: "bg-accent-green",
-    image: "/sites/afterquery-com-7e0a74f7/research-ad1daf48/images/model-evaluation.avif",
   },
 ];
 
@@ -62,7 +48,7 @@ export function CoreResearchAreas() {
       <div className="mx-auto w-[min(100%_-_2rem,1040px)]">
         <Reveal>
           <h2 className="font-serif text-ink tracking-[-0.01em] text-balance text-[2.375rem] leading-[1.05] mb-10">
-            Core Research Areas
+            What’s included
           </h2>
           <div className="grid gap-10 md:grid-cols-2 md:gap-16">
             <div className="border-t border-ink/15 pt-8">
@@ -84,7 +70,7 @@ export function CoreResearchAreas() {
                   </p>
                 </div>
               </div>
-              <div role="tablist" aria-label="Core research areas" className="mt-10">
+              <div role="tablist" aria-label="What’s included" className="mt-10">
                 {areas.map((area, n) => {
                   const active = n === index;
                   return (

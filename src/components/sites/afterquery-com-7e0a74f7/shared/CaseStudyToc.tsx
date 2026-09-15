@@ -2,16 +2,16 @@
 
 import { useEffect, useRef, useState } from "react";
 
-export type TocItem = {
+export type CaseStudyTocItem = {
   id: string;
   text: string;
 };
 
-type ArticleTocProps = {
-  items: TocItem[];
+type CaseStudyTocProps = {
+  items: CaseStudyTocItem[];
 };
 
-export function ArticleToc({ items }: ArticleTocProps) {
+export function CaseStudyToc({ items }: CaseStudyTocProps) {
   const [activeId, setActiveId] = useState(items[0]?.id ?? "");
   const [indicator, setIndicator] = useState({ top: 0, height: 15, ready: false });
   const linkRefs = useRef<Record<string, HTMLAnchorElement | null>>({});

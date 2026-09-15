@@ -11,36 +11,30 @@ type DataItem = {
 const items: DataItem[] = [
   {
     image: `${IMAGE_ROOT}m1.avif`,
-    title: "Supervised Fine-Tuning (SFT)",
+    title: "Automated Reviews",
     description:
-      "High-quality prompt–response pairs and chain-of-thought reasoning traces — teaching models how to behave across complex tasks.",
+      "Review requests go out automatically after every job, with a one-tap link to your Google profile. We reply to every review and route unhappy customers to private feedback first.",
   },
   {
     image: `${IMAGE_ROOT}m2.avif`,
-    title: "Reinforcement Learning + Rubrics",
+    title: "Local SEO",
     description:
-      "Expert-designed prompts with grading frameworks for reasoning and code generation — turning subjective judgment into scalable reward signals.",
+      "We optimize your Google Business Profile, your site, and your local listings so you climb the map 3-pack and outrank competitors — more calls and more booked jobs every week.",
   },
   {
     image: `${IMAGE_ROOT}m3.avif`,
-    title: "Agent Environments (API / MCP)",
+    title: "Websites That Convert",
     description:
-      "Custom environments across APIs, tools, and services — enabling training and evaluation of agents in real workflows.",
-  },
-  {
-    image: `${IMAGE_ROOT}m4.avif`,
-    title: "Computer Use Trajectories",
-    description:
-      "Human-demonstrated interactions across browser and desktop environments — teaching models to navigate and operate software end-to-end.",
+      "A fast, mobile-first website built to turn visitors into booked jobs, with lead-capture forms, online booking, and instant follow-up.",
   },
 ];
 
 export function DataGrid() {
   return (
     <div className="mx-auto w-[min(100%_-_2rem,688px)] pb-14">
-      <Stagger className="grid grid-cols-2 gap-x-4 gap-y-8">
+      <Stagger className="grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-3">
         {items.map(item => (
-          <div key={item.image} className="flex flex-col items-start gap-3 sm:flex-row sm:gap-6">
+          <div key={item.image} className="flex flex-col items-start gap-3">
             <img src={item.image} alt="" width={44} height={44} className="size-11 shrink-0 rounded-[4px] object-cover mix-blend-multiply" />
             <div>
               <div className="font-sans text-lg leading-[1.45] text-ink/80 text-[14px] font-medium leading-[1.25] text-ink sm:text-lg sm:leading-[1.2]">{item.title}</div>

@@ -8,17 +8,17 @@ export function HeroSection() {
       <div className="mx-auto w-[min(100%_-_2rem,688px)]">
         <Stagger>
           <div>
-            <h1 className="font-serif text-ink tracking-[-0.01em] text-balance text-2xl leading-[1.15] max-w-[28ch]">We help you target more customers and understand their needs.</h1>
+            <h1 className="font-serif text-ink tracking-[-0.01em] text-balance text-2xl leading-[1.15] max-w-[28ch]">We make you outrank your competition.</h1>
           </div>
           <div>
-            <p aria-label="The future of business isn't just about a good product; connecting with the customer is key." className="relative mt-5 max-w-[46ch] font-serif text-xl leading-[1.2] text-ink/55">
-              <Typewriter text="The future of business isn't just about a good product; connecting with the customer is key." />
+            <p aria-label="The moment a job is done, we text your customer and make leaving a review one tap." className="relative mt-5 max-w-[46ch] font-serif text-xl leading-[1.2] text-ink/55">
+              <Typewriter text="We set up the system for you to make your business visible to more customers, get more jobs booked, receive more reviews, and repeat." />
             </p>
           </div>
           <div>
             <div className="mt-8 flex flex-wrap items-center gap-3">
-              <a href="/contact" className="inline-flex items-center justify-center gap-2 rounded-full font-sans font-medium leading-none transition-[scale,background-color,color,filter] duration-150 ease-out outline-none focus-visible:ring-2 focus-visible:ring-ink/40 focus-visible:ring-offset-2 focus-visible:ring-offset-bg active:scale-[0.96] bg-ink/90 text-bg hover:bg-ink h-8 px-3 text-sm">Get data</a>
-              <a href="/research" className="inline-flex items-center justify-center gap-2 rounded-full font-sans font-medium leading-none transition-[scale,background-color,color,filter] duration-150 ease-out outline-none focus-visible:ring-2 focus-visible:ring-ink/40 focus-visible:ring-offset-2 focus-visible:ring-offset-bg active:scale-[0.96] bg-ink/[0.06] text-ink/80 hover:bg-ink/[0.1] h-8 px-3 text-sm">Explore research</a>
+              <a href="/contact" className="inline-flex items-center justify-center gap-2 rounded-full font-sans font-medium leading-none transition-[scale,background-color,color,filter] duration-150 ease-out outline-none focus-visible:ring-2 focus-visible:ring-ink/40 focus-visible:ring-offset-2 focus-visible:ring-offset-bg active:scale-[0.96] bg-ink/90 text-bg hover:bg-ink h-8 px-3 text-sm">Book a Free Demo</a>
+              <a href="/research" className="inline-flex items-center justify-center gap-2 rounded-full font-sans font-medium leading-none transition-[scale,background-color,color,filter] duration-150 ease-out outline-none focus-visible:ring-2 focus-visible:ring-ink/40 focus-visible:ring-offset-2 focus-visible:ring-offset-bg active:scale-[0.96] bg-ink/[0.06] text-ink/80 hover:bg-ink/[0.1] h-8 px-3 text-sm">See how it works</a>
             </div>
           </div>
         </Stagger>
