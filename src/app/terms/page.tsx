@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
-import { SiteHeader } from "@/components/sites/afterquery-com-7e0a74f7/shared/SiteHeader";
-import { SiteFooter } from "@/components/sites/afterquery-com-7e0a74f7/shared/SiteFooter";
-import { LegalArticle } from "@/components/sites/afterquery-com-7e0a74f7/shared/LegalArticle";
+import { SiteHeader } from "@/components/sites/1sapien-com-7e0a74f7/shared/SiteHeader";
+import { SiteFooter } from "@/components/sites/1sapien-com-7e0a74f7/shared/SiteFooter";
+import { LegalArticle } from "@/components/sites/1sapien-com-7e0a74f7/shared/LegalArticle";
 import { TERMS_OF_SERVICE } from "@/lib/legal";
 
 export const metadata: Metadata = {

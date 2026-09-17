@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
-import { SiteHeader } from "@/components/sites/afterquery-com-7e0a74f7/shared/SiteHeader";
-import { SiteFooter } from "@/components/sites/afterquery-com-7e0a74f7/shared/SiteFooter";
-import { ProductsSection } from "@/components/sites/afterquery-com-7e0a74f7/products-b2ce6bb6/ProductsSection";
+import { SiteHeader } from "@/components/sites/1sapien-com-7e0a74f7/shared/SiteHeader";
+import { SiteFooter } from "@/components/sites/1sapien-com-7e0a74f7/shared/SiteFooter";
+import { ProductsSection } from "@/components/sites/1sapien-com-7e0a74f7/products-b2ce6bb6/ProductsSection";
 
 export const metadata: Metadata = {
   title: "Local Growth Services - 1Sapien",

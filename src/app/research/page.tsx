@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
-import { SiteHeader } from "@/components/sites/afterquery-com-7e0a74f7/shared/SiteHeader";
-import { SiteFooter } from "@/components/sites/afterquery-com-7e0a74f7/shared/SiteFooter";
-import { ResearchHero } from "@/components/sites/afterquery-com-7e0a74f7/research-ad1daf48/ResearchHero";
-import { BenchmarkCards } from "@/components/sites/afterquery-com-7e0a74f7/research-ad1daf48/BenchmarkCards";
-import { ResearchListSection } from "@/components/sites/afterquery-com-7e0a74f7/research-ad1daf48/ResearchListSection";
-import { CoreResearchAreas } from "@/components/sites/afterquery-com-7e0a74f7/research-ad1daf48/CoreResearchAreas";
+import { SiteHeader } from "@/components/sites/1sapien-com-7e0a74f7/shared/SiteHeader";
+import { SiteFooter } from "@/components/sites/1sapien-com-7e0a74f7/shared/SiteFooter";
+import { ResearchHero } from "@/components/sites/1sapien-com-7e0a74f7/research-ad1daf48/ResearchHero";
+import { BenchmarkCards } from "@/components/sites/1sapien-com-7e0a74f7/research-ad1daf48/BenchmarkCards";
+import { ResearchListSection } from "@/components/sites/1sapien-com-7e0a74f7/research-ad1daf48/ResearchListSection";
+import { CoreResearchAreas } from "@/components/sites/1sapien-com-7e0a74f7/research-ad1daf48/CoreResearchAreas";
 
 export const metadata: Metadata = {
   title: "Results & Case Studies - 1Sapien",

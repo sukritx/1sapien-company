@@ -26,8 +26,7 @@ export function HeroSection() {
       <div className="mx-auto w-[min(100%_-_2rem,1136px)] mt-14 md:mt-20">
         <Reveal delay={0.15}>
           <div className="relative overflow-hidden rounded-[4px] ring-1 ring-inset ring-ink/10">
-            <img src="/sites/afterquery-com-7e0a74f7/root-e0627e8d/images/landing-hero.webp" alt="" width={2080} height={838} className="h-auto w-full" />
-            <img src="/sites/afterquery-com-7e0a74f7/shared/brand/hero-mark.svg" alt="" aria-hidden="true" className="pointer-events-none absolute left-1/2 top-1/2 w-24 -translate-x-1/2 -translate-y-1/2 md:w-36" />
+            <img src="/sites/afterquery-com-7e0a74f7/root-e0627e8d/images/1sapien-banner-compressed.jpg" alt="" width={950} height={383} className="h-auto w-full" />
           </div>
         </Reveal>
       </div>

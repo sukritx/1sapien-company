@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
-import { SiteHeader } from "@/components/sites/afterquery-com-7e0a74f7/shared/SiteHeader";
-import { SiteFooter } from "@/components/sites/afterquery-com-7e0a74f7/shared/SiteFooter";
-import { ContactSection } from "@/components/sites/afterquery-com-7e0a74f7/contact-dc38169e/ContactSection";
+import { SiteHeader } from "@/components/sites/1sapien-com-7e0a74f7/shared/SiteHeader";
+import { SiteFooter } from "@/components/sites/1sapien-com-7e0a74f7/shared/SiteFooter";
+import { ContactSection } from "@/components/sites/1sapien-com-7e0a74f7/contact-dc38169e/ContactSection";
 
 export const metadata: Metadata = {
   title: "Book a Free Demo - 1Sapien",
