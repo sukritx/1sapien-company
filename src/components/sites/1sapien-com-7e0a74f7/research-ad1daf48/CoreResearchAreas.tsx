@@ -22,7 +22,7 @@ const areas: ResearchArea[] = [
   {
     title: "Local SEO",
     description:
-      "We optimize your Google Business Profile, your site, and your local listings so you climb the map 3-pack and outrank competitors in your service area — more calls and more booked jobs every week.",
+      "We optimize your Google Business Profile, your site, and your local listings so you climb the map 3-pack and outrank competitors in your service area. Every month you get a local competitor and rank tracking report showing exactly where you beat them.",
     marker: "bg-ink",
     image: "/sites/afterquery-com-7e0a74f7/research-ad1daf48/images/multimodal.avif",
   },

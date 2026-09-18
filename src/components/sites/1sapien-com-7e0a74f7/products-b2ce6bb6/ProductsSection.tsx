@@ -5,19 +5,35 @@ const rows = [
     title: "Automated Reviews",
     color: "rgba(0, 0, 0, 0.8)",
     description:
-      "Review requests go out automatically after every completed job, with a one-tap link straight to your Google profile. We reply to every review and route unhappy customers to a private feedback form first — so your rating climbs without you chasing anyone.",
+      "Review requests go out automatically after every completed job, with a one-tap link straight to your Google profile — so your rating climbs without you chasing anyone.",
+    includes: [
+      "Automatic review requests after every completed job",
+      "One-tap link straight to your Google profile",
+      "Negative review interception — unhappy customers go to a private form first",
+      "A reply to every review, so nothing goes unanswered",
+    ],
   },
   {
     title: "Local SEO",
     color: "rgb(173, 101, 101)",
     description:
-      "We optimize your Google Business Profile, your site, and your local listings so you climb into the map 3-pack and outrank competitors in your service area. You get more calls and more booked jobs — tracked and reported every month.",
+      "We optimize your Google Business Profile, your site, and your local listings so you climb into the map 3-pack and outrank competitors in your service area — more calls and more booked jobs.",
+    includes: [
+      "Google Business Profile and local listing optimization",
+      "Map 3-pack rankings in your service area",
+      "Monthly local competitor and rank tracking report — see exactly where you beat them",
+    ],
   },
   {
     title: "Websites That Convert",
     color: "rgb(42, 140, 83)",
     description:
-      "A fast, mobile-first website built for one job: turning a visitor into a booked appointment. Lead-capture forms, online booking, and instant follow-up mean no enquiry slips away, day or night.",
+      "A fast, mobile-first website built for one job: turning a visitor into a booked appointment — day or night.",
+    includes: [
+      "Fast, mobile-first build",
+      "Lead-capture forms and online booking",
+      "Instant follow-up so no enquiry slips away",
+    ],
   },
 ];
 
@@ -57,9 +73,26 @@ export function ProductsSection() {
                     {row.title}
                   </h3>
                 </div>
-                <p className="font-sans text-sm leading-[1.45] text-ink/60">
-                  {row.description}
-                </p>
+                <div>
+                  <p className="font-sans text-sm leading-[1.45] text-ink/60">
+                    {row.description}
+                  </p>
+                  <ul className="mt-4 flex flex-col gap-2">
+                    {row.includes.map((item) => (
+                      <li
+                        key={item}
+                        className="flex gap-2.5 font-sans text-sm leading-[1.45] text-ink/60"
+                      >
+                        <span
+                          aria-hidden="true"
+                          className="mt-[7px] h-1.5 w-1.5 shrink-0 rounded-full"
+                          style={{ backgroundColor: row.color }}
+                        />
+                        <span className="min-w-0">{item}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
               </div>
             </Reveal>
           ))}

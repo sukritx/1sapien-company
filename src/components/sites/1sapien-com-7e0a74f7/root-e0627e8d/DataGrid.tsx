@@ -13,13 +13,13 @@ const items: DataItem[] = [
     image: `${IMAGE_ROOT}m1.avif`,
     title: "Automated Reviews",
     description:
-      "Review requests go out automatically after every job, with a one-tap link to your Google profile. We reply to every review and route unhappy customers to private feedback first.",
+      "Review requests go out automatically after every job, with a one-tap link to your Google profile. We reply to every review and intercept negative feedback — unhappy customers go to a private form first.",
   },
   {
     image: `${IMAGE_ROOT}m2.avif`,
     title: "Local SEO",
     description:
-      "We optimize your Google Business Profile, your site, and your local listings so you climb the map 3-pack and outrank competitors — more calls and more booked jobs every week.",
+      "We optimize your Google Business Profile, your site, and your local listings so you climb the map 3-pack and outrank competitors — plus a monthly competitor and rank tracking report showing exactly where you beat them.",
   },
   {
     image: `${IMAGE_ROOT}m3.avif`,
