@@ -1,5 +1,3 @@
-import { Fragment } from "react";
-
 import type { CaseStudy } from "@/lib/case-studies";
 import { ArticleRow } from "./ArticleRow";
 import { CaseStudyToc } from "./CaseStudyToc";
@@ -10,8 +8,6 @@ const LINK =
   "font-medium text-ink underline decoration-ink/30 underline-offset-2 transition-colors duration-150 hover:decoration-ink";
 const H2 =
   "font-serif text-ink tracking-[-0.01em] text-balance text-xl leading-[1.15] scroll-mt-28 font-bold text-ink/80";
-const TD = "border-b border-ink/10 py-2.5 pr-6 text-ink/70";
-const TH = "border-b border-ink/20 py-2.5 pr-6 font-medium text-ink/80";
 
 type CaseStudyArticleProps = {
   study: CaseStudy;
@@ -84,43 +80,6 @@ export function CaseStudyArticle({ study, related }: CaseStudyArticleProps) {
                   </Reveal>
                 );
               }
-              if (block.type === "table") {
-                return (
-                  <Fragment key={`table-${index}`}>
-                    <Reveal className="mt-8">
-                      <div className="overflow-x-auto">
-                        <table className="w-full border-collapse text-left font-sans text-sm">
-                          <thead>
-                            <tr>
-                              {block.heads.map((head) => (
-                                <th key={head} className={TH}>
-                                  {head}
-                                </th>
-                              ))}
-                            </tr>
-                          </thead>
-                          <tbody>
-                            {block.rows.map((row) => (
-                              <tr key={row[0]}>
-                                {row.map((value) => (
-                                  <td key={value} className={TD}>
-                                    {value}
-                                  </td>
-                                ))}
-                              </tr>
-                            ))}
-                          </tbody>
-                        </table>
-                      </div>
-                    </Reveal>
-                    <Reveal className="mt-6">
-                      <p className="font-sans text-lg leading-[1.45] text-ink/80 font-serif leading-[1.5] italic text-ink/70">
-                        {block.caption}
-                      </p>
-                    </Reveal>
-                  </Fragment>
-                );
-              }
               if (block.type === "quote") {
                 return (
                   <Reveal key={`quote-${index}`} className="mt-8">
@@ -138,20 +97,20 @@ export function CaseStudyArticle({ study, related }: CaseStudyArticleProps) {
             })}
             <Reveal className="mt-8">
               <p className={P}>
-                Want results like these?{" "}
+                Want a simpler process and results like these?{" "}
                 <a href="/contact" className={LINK}>
                   Book a free demo
                 </a>{" "}
-                and we’ll show you exactly what we’d do for your business, or email us directly at{" "}
-                <a href="mailto:hello@1sapien.com" className={LINK}>
-                  hello@1sapien.com
+                and we’ll map out the shortest path from where you are to the outcome you want, or email us directly at{" "}
+                <a href="mailto:s.xuto@1sapien.com" className={LINK}>
+                  s.xuto@1sapien.com
                 </a>
                 .
               </p>
             </Reveal>
             <Reveal className="mt-12">
               <p className="font-sans text-sm leading-[1.45] text-ink/80 leading-[1.6] text-ink/45 border-t border-ink/10 pt-5">
-                1Sapien helps local service businesses across the US and Europe turn finished jobs into 5-star reviews, higher rankings, and booked work.
+                1Sapien helps businesses and universities across the US, Europe, and beyond turn complicated work into simple systems that deliver the best possible outcome.
               </p>
             </Reveal>
           </div>

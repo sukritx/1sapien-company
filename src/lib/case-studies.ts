@@ -6,7 +6,6 @@ export type CaseStudyAuthor = {
 export type CaseStudyBlock =
   | { type: "paragraph"; text: string }
   | { type: "heading"; id: string; text: string }
-  | { type: "table"; caption: string; heads: string[]; rows: string[][] }
   | { type: "quote"; text: string };
 
 export type CaseStudy = {
@@ -23,8 +22,65 @@ export type CaseStudy = {
 
 const COVER = "/sites/afterquery-com-7e0a74f7/shared/research/";
 const AVATAR = "/sites/afterquery-com-7e0a74f7/shared/authors/";
+const VNL_COVER =
+  "/sites/afterquery-com-7e0a74f7/root-e0627e8d/images/research/Healthcare_professional_adjustin…_20260917225446-modified.jpeg";
 
 export const CASE_STUDIES: CaseStudy[] = [
+  {
+    slug: "virtual-nurse-lab-ai-patient-consults",
+    service: "Education AI",
+    title: "Virtual Nurse Lab: an AI patient that scores every nursing consult",
+    description:
+      "How we built Virtual Nurse Lab — a platform where nursing students run patient consultations online while AI scores the conversation and returns instant feedback. Now used by 5+ universities internationally.",
+    cover: VNL_COVER,
+    dateText: "Sep 17, 2026",
+    dateISO: "2026-09-17",
+    authors: [
+      { name: "Spencer M.", avatar: `${AVATAR}spencer.jpg` },
+      { name: "Tiana R.", avatar: `${AVATAR}tiana.jpg` },
+    ],
+    blocks: [
+      {
+        type: "paragraph",
+        text: "Virtual Nurse Lab is a platform we built so nursing students can practise a patient consultation any time they want — without waiting for a slot in the simulation lab. The student interviews an AI patient online, and when the consult ends the AI scores the whole conversation and hands back specific, itemised feedback. What started as a single pilot cohort is now in use at more than five universities internationally.",
+      },
+      { type: "heading", id: "the-problem", text: "The problem" },
+      {
+        type: "paragraph",
+        text: "Nursing students only get so many chances to practise a real consultation before they are graded on one. Simulation labs are expensive to run, book out weeks ahead, and come with a hard limit: one instructor can watch one student at a time. Most of a cohort spends the semester watching instead of practising.",
+      },
+      {
+        type: "paragraph",
+        text: "And the feedback is slow. A student runs a scenario on Tuesday and gets written comments the following week, long after the memory of what they actually said has faded. The people who need the most reps — the ones still finding their footing — are the ones who get the fewest.",
+      },
+      { type: "heading", id: "what-we-did", text: "What we did" },
+      {
+        type: "paragraph",
+        text: "We built a scenario engine where the AI plays the patient. Faculty script the case — the symptoms, the history, the things the patient is reluctant to mention, even how anxious or evasive they are — and the student works through it in a live consult. The AI patient answers in character, pushes back, and reacts to how the student asks, so no two attempts play out the same way.",
+      },
+      {
+        type: "paragraph",
+        text: "The scoring is the part that matters. When the consult ends, the backend evaluates the full transcript against the rubric the faculty themselves wrote — history taking, empathy and rapport, safety, clinical reasoning, closing the encounter — and returns a score with feedback tied to the exact moment in the conversation. Not a grade out of nowhere: a breakdown of what was missed and what to try instead. Students can re-run the scenario immediately and watch the score move.",
+      },
+      {
+        type: "paragraph",
+        text: "For faculty we built the other half: a dashboard showing how a whole cohort is progressing, which competencies are lagging, and which students need a human conversation. Nobody has to sit through fifty consults to find the three that need attention.",
+      },
+      {
+        type: "paragraph",
+        text: "The strategy throughout was to make adoption effortless. We didn’t ask faculty to rewrite their curriculum — we took the rubric they already grade on and made the software speak it. Students open one link and start talking; there is nothing to install and nothing to learn. The less time anyone spends fighting the tool, the more practice the student gets, and the better the outcome for everyone.",
+      },
+      { type: "heading", id: "the-results", text: "The results" },
+      {
+        type: "paragraph",
+        text: "Students now get unlimited practice consults instead of a handful a term, with feedback that lands the moment they finish rather than the week after. Faculty get their evenings back and a clear view of who needs help. The platform is in live use at more than five universities internationally, and the same rubric-driven scoring means a student in one programme is measured the same way as a student in another.",
+      },
+      {
+        type: "quote",
+        text: "A student can rehearse a difficult conversation ten times before they ever have it with a real patient. The AI grades every attempt the same way, so the feedback is consistent — and my instructors are no longer marking consults at midnight.",
+      },
+    ],
+  },
   {
     slug: "more-5-star-google-reviews",
     service: "Automated Reviews",
@@ -62,14 +118,8 @@ export const CASE_STUDIES: CaseStudy[] = [
         text: "We also took over review management. Every new review gets a reply, and unhappy customers are routed to a private feedback form first — so small problems get fixed before they ever become public 1-star reviews.",
       },
       {
-        type: "table",
-        caption: "Their first four months with 1Sapien, measured against the four months before we started.",
-        heads: ["Metric", "Before", "Month 1", "Month 2", "Month 4"],
-        rows: [
-          ["Google reviews", "12", "48", "121", "214"],
-          ["Map position", "#14", "#9", "#4", "#3"],
-          ["Calls per month", "19", "34", "71", "128"],
-        ],
+        type: "paragraph",
+        text: "The strategy was deliberately boring, and that is the point. One ask, sent at the right moment, every single time, with the whole thing running on its own. No new app for staff to open, no monthly manual push, nothing to remember on a busy day. When the simplest possible process is the one that always happens, the outcome takes care of itself.",
       },
       { type: "heading", id: "the-results", text: "The results" },
       {
@@ -119,14 +169,8 @@ export const CASE_STUDIES: CaseStudy[] = [
         text: "Then we fixed the website. We built clear service pages for each thing they actually do, written the way customers search, with fast loading and strong internal links. We also connected automated review requests, because rankings follow reputation.",
       },
       {
-        type: "table",
-        caption: "Their first six months with 1Sapien, measured against the six months before we started.",
-        heads: ["Metric", "Before", "Month 1", "Month 3", "Month 6"],
-        rows: [
-          ["Map position", "#11", "#7", "#3", "#1"],
-          ["Calls per month", "31", "44", "78", "96"],
-          ["Booked jobs per month", "12", "18", "29", "38"],
-        ],
+        type: "paragraph",
+        text: "Ranking is a long game, so the strategy was to fix the things that compound and then leave them alone. We sequenced the work from the foundation up — profile, listings, then website, then reputation — so each step made the next one easier. Everything we set up keeps running without a weekly checklist, because a process that needs constant attention is a process that quietly stops.",
       },
       { type: "heading", id: "the-results", text: "The results" },
       {
@@ -176,14 +220,8 @@ export const CASE_STUDIES: CaseStudy[] = [
         text: "Then we wired up online booking and instant follow-up. Customers can book any hour of the day, and every enquiry gets an automatic text and email within seconds. Reminders go out before each appointment, so no-shows drop without anyone making a call.",
       },
       {
-        type: "table",
-        caption: "Their first six months after launch, measured against the six months before.",
-        heads: ["Metric", "Before", "Month 1", "Month 3", "Month 6"],
-        rows: [
-          ["Online bookings / month", "0", "34", "71", "94"],
-          ["Avg. page load", "6.4s", "1.1s", "1.0s", "0.9s"],
-          ["No-show rate", "22%", "15%", "11%", "9%"],
-        ],
+        type: "paragraph",
+        text: "The strategy was to remove every step between a customer deciding and a customer booked. One clear action, repeated everywhere on the page, with the follow-up handled automatically behind it. Nobody at the salon has to log in, chase a reply, or send a reminder — and the fewer moving parts there are, the more reliable the result.",
       },
       { type: "heading", id: "the-results", text: "The results" },
       {
