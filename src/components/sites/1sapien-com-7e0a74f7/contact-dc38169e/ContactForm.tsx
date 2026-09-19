@@ -1,9 +1,9 @@
 "use client";
 
 const INTERESTS = [
-  { label: "Increase number of reviews", value: "increase-reviews" },
-  { label: "Boost visibility", value: "increase-local-visibility" },
-  { label: "Websites That increase booking", value: "websites-that-increase-booking" },
+  { label: "Automated Reviews", value: "automated-reviews" },
+  { label: "Local SEO (Rank higher on Google)", value: "local-seo" },
+  { label: "Conversion Website", value: "conversion-website" },
 ];
 
 const LOCATION_COUNTS = [
