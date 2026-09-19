@@ -23,9 +23,68 @@ export type CaseStudy = {
 const COVER = "/sites/afterquery-com-7e0a74f7/shared/research/";
 const AVATAR = "/sites/afterquery-com-7e0a74f7/shared/authors/";
 const VNL_COVER =
-  "/sites/afterquery-com-7e0a74f7/root-e0627e8d/images/research/Healthcare_professional_adjustin…_20260917225446-modified.jpeg";
+  "/sites/afterquery-com-7e0a74f7/root-e0627e8d/images/research/Healthcare_professional_adjustin…_20260917225446 (2).jpeg";
+const BIZHERO_COVER =
+  "/sites/afterquery-com-7e0a74f7/root-e0627e8d/images/research/Motor_oil_flowing_over_engine_20260919121201 (1).jpeg";
+const AUTHOR: CaseStudyAuthor = { name: "Sukrit Xuto", avatar: `${AVATAR}sukrit.jpg` };
 
 export const CASE_STUDIES: CaseStudy[] = [
+  {
+    slug: "bizhero-bilingual-product-site",
+    service: "Websites",
+    title: "BizHero: a bilingual product site that turns AI search into leads",
+    description:
+      "How we rebuilt bizhero-lubricants.com around a full product catalogue in Thai and English, structured so search engines and AI assistants can find and recommend it — with every landing page feeding straight into HubSpot.",
+    cover: BIZHERO_COVER,
+    dateText: "Sep 19, 2026",
+    dateISO: "2026-09-19",
+    authors: [AUTHOR],
+    blocks: [
+      {
+        type: "paragraph",
+        text: "BizHero sells lubricants — engine oils, greases, and industrial fluids — with a catalogue deep enough that no buyer can hold it in their head. Their old site showed a fraction of it, spoke one language, and sent every enquiry into an inbox. We rebuilt it from the catalogue up: every product, in Thai and English, structured so both search engines and AI assistants can read it, with landing pages wired straight into HubSpot.",
+      },
+      { type: "heading", id: "the-problem", text: "The problem" },
+      {
+        type: "paragraph",
+        text: "The old website was a brochure, not a catalogue. Most products were never listed, and the ones that were came with a name and a photo — no grades, no applications, no pack sizes. A buyer who needed to know which oil suited their engine or machine had no way to tell, so they left for whichever distributor explained it better.",
+      },
+      {
+        type: "paragraph",
+        text: "Language was the second wall. Thai and English customers landed on the same thin English pages, and the people selling the product day to day were doing the explaining over the phone instead of the site doing it for them.",
+      },
+      {
+        type: "paragraph",
+        text: "And the leads went nowhere. Every enquiry arrived as an email with a name and a question, with no tracking, no routing, and no follow-up — so warm buyers quietly went cold. Meanwhile more buyers start their search by asking an AI assistant. A catalogue that isn’t structured for machines to read may as well not exist.",
+      },
+      { type: "heading", id: "what-we-did", text: "What we did" },
+      {
+        type: "paragraph",
+        text: "We put the whole catalogue online. Every product now has its own page with specifications, grades, applications, and available pack sizes, organised so a buyer can narrow down to the right oil in a couple of clicks instead of a phone call. The catalogue is the site — not a page about the catalogue.",
+      },
+      {
+        type: "paragraph",
+        text: "Then we made it bilingual. Every page exists in Thai and English, switchable at any point, with product data kept consistent across both. A customer reads in the language they think in, and nothing gets lost in an English page written for a Thai buyer.",
+      },
+      {
+        type: "paragraph",
+        text: "The third piece was making the site legible to AI. Clean structure, consistent product data, and proper markup mean search engines and AI assistants can read the catalogue, match a buyer’s question to the right product, and recommend it — so BizHero shows up in AI search results instead of being invisible to them.",
+      },
+      {
+        type: "paragraph",
+        text: "Finally, every product line and campaign got its own conversion-focused landing page, each one connected to HubSpot. Enquiries arrive as tracked contacts with the product and source attached, so follow-up starts within minutes with a form that already knows what the buyer was looking at — not a cold email in a shared inbox.",
+      },
+      { type: "heading", id: "the-results", text: "The results" },
+      {
+        type: "paragraph",
+        text: "The full catalogue is online and searchable in both languages, and AI assistants now surface BizHero products when buyers ask for them. Enquiries land in HubSpot as qualified, tracked leads with automated follow-up behind them, so the team spends its time answering people who are ready to buy instead of asking who they are. More of the right leads, from channels that didn’t exist for the old site.",
+      },
+      {
+        type: "quote",
+        text: "Buyers used to email us and wait. Now they find the exact product — in Thai or English — and by the time the enquiry reaches HubSpot we already know what they want and where they came from.",
+      },
+    ],
+  },
   {
     slug: "virtual-nurse-lab-ai-patient-consults",
     service: "Education AI",
@@ -35,10 +94,7 @@ export const CASE_STUDIES: CaseStudy[] = [
     cover: VNL_COVER,
     dateText: "Sep 17, 2026",
     dateISO: "2026-09-17",
-    authors: [
-      { name: "Spencer M.", avatar: `${AVATAR}spencer.jpg` },
-      { name: "Tiana R.", avatar: `${AVATAR}tiana.jpg` },
-    ],
+    authors: [AUTHOR],
     blocks: [
       {
         type: "paragraph",
@@ -90,10 +146,7 @@ export const CASE_STUDIES: CaseStudy[] = [
     cover: `${COVER}how-afterquery-helped-nvidia-hill-climb-gdpval.jpg`,
     dateText: "Jul 2, 2026",
     dateISO: "2026-07-02",
-    authors: [
-      { name: "Spencer M.", avatar: `${AVATAR}spencer.jpg` },
-      { name: "Carlos G.", avatar: `${AVATAR}carlos.jpg` },
-    ],
+    authors: [AUTHOR],
     blocks: [
       {
         type: "paragraph",
@@ -141,10 +194,7 @@ export const CASE_STUDIES: CaseStudy[] = [
     cover: `${COVER}solving-the-last-mile-problem-in-partnership-with-the-raine-group.jpg`,
     dateText: "Apr 28, 2026",
     dateISO: "2026-04-28",
-    authors: [
-      { name: "Sam J.", avatar: `${AVATAR}sam-jung.jpg` },
-      { name: "Spencer M.", avatar: `${AVATAR}spencer.jpg` },
-    ],
+    authors: [AUTHOR],
     blocks: [
       {
         type: "paragraph",
@@ -192,10 +242,7 @@ export const CASE_STUDIES: CaseStudy[] = [
     cover: `${COVER}how-we-improved-terminal-bench-2-with-tinker-and-harbor.jpg`,
     dateText: "Mar 31, 2026",
     dateISO: "2026-03-31",
-    authors: [
-      { name: "Michael E.", avatar: `${AVATAR}michael.jpg` },
-      { name: "Spencer M.", avatar: `${AVATAR}spencer.jpg` },
-    ],
+    authors: [AUTHOR],
     blocks: [
       {
         type: "paragraph",
