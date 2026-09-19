@@ -32,7 +32,7 @@ export const CASE_STUDIES: CaseStudy[] = [
   {
     slug: "bizhero-bilingual-product-site",
     service: "Websites",
-    title: "BizHero: a bilingual product site that turns AI search into leads",
+    title: "BizHero: a new website aim for conversion and AI search engine",
     description:
       "How we rebuilt bizhero-lubricants.com around a full product catalogue in Thai and English, structured so search engines and AI assistants can find and recommend it — with every landing page feeding straight into HubSpot.",
     cover: BIZHERO_COVER,
