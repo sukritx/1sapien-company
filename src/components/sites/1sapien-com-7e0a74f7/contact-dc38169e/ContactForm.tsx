@@ -1,7 +1,7 @@
 "use client";
 
 const INTERESTS = [
-  { label: "Automated Reviews", value: "automated-reviews" },
+  { label: "Automated 5 Star Reviews", value: "automated-reviews" },
   { label: "Local SEO (Rank higher on Google)", value: "local-seo" },
   { label: "Conversion Website", value: "conversion-website" },
 ];
