@@ -3,7 +3,7 @@
 const INTERESTS = [
   { label: "Automated 5 Star Reviews", value: "automated-reviews" },
   { label: "Local SEO (Rank higher on Google)", value: "local-seo" },
-  { label: "Conversion Website", value: "conversion-website" },
+  { label: "Custom Landing Page", value: "website-landing-page" },
 ];
 
 const LOCATION_COUNTS = [
