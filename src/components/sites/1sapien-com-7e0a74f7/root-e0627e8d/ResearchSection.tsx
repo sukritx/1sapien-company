@@ -27,7 +27,7 @@ export function ResearchSection() {
           <div className="flex flex-col gap-6 sm:flex-row sm:items-end sm:justify-between">
             <div className="max-w-[40rem]">
               <h2 className="font-sans text-2xl font-medium leading-[1.15] text-ink/80">Latest blogs</h2>
-              <p className="font-sans text-lg leading-[1.45] text-ink/60 mt-2">Straight from the field — practical guides and real results from the local businesses we work with. How they win more reviews, rank higher on Google, and turn their website into booked jobs.</p>
+              <p className="font-sans text-lg leading-[1.45] text-ink/60 mt-2">Straight from the field — practical guides and real results from the local businesses we work with. How they win more reviews, answer every one, and turn their reputation into booked jobs.</p>
             </div>
             <a href="/research" className="inline-flex items-center justify-center gap-2 rounded-full font-sans font-medium leading-none transition-[scale,background-color,color,filter] duration-150 ease-out outline-none focus-visible:ring-2 focus-visible:ring-ink/40 focus-visible:ring-offset-2 focus-visible:ring-offset-bg active:scale-[0.96] bg-ink/[0.06] text-ink/80 hover:bg-ink/[0.1] h-8 px-3 text-sm shrink-0">View all blogs</a>
           </div>

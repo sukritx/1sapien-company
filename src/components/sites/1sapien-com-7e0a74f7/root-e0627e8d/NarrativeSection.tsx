@@ -10,9 +10,9 @@ export function NarrativeSection() {
           <p className="font-sans text-sm leading-[1.45] text-ink/60 mb-4">Problem</p>
           <h2 className="font-serif text-ink tracking-[-0.01em] text-balance text-2xl leading-[1.15] text-ink/80">Local businesses lose jobs to competitors with more reviews and higher Google rankings.</h2>
           <div className="mt-4 space-y-4">
-            <p className="font-sans text-lg leading-[1.45] text-ink/60 font-medium">When someone nearby searches for what you do, they pick from the top few results. If you’re not there, you lose the call — even when your work is better. Most local businesses have happy customers but almost no reviews, and a website that never gets found.</p>
+            <p className="font-sans text-lg leading-[1.45] text-ink/60 font-medium">When someone nearby searches for what you do, they pick from the top few results. If you’re not there — or your reviews don’t back you up — you lose the call, even when your work is better. Most local businesses have happy customers but almost no reviews.</p>
             <p className="font-sans text-lg leading-[1.45] text-ink/60 font-medium">Getting found — and getting chosen — has never mattered more.</p>
-            <p className="font-sans text-lg leading-[1.45] text-ink/60 font-medium">We fix it on autopilot: automated review requests after every job, local SEO that pushes you into the Google Map 3-pack, and a fast website built to turn visitors into booked jobs.</p>
+            <p className="font-sans text-lg leading-[1.45] text-ink/60 font-medium">We fix it on autopilot: review requests after every job, AI-written replies, branded social proof, a profile that stays accurate, competitor tracking, and a weekly report telling you what to fix.</p>
           </div>
         </Reveal>
       </div>
@@ -26,8 +26,8 @@ export function NarrativeSection() {
       <div className="mx-auto w-[min(100%_-_2rem,688px)] mt-14">
         <Reveal>
           <p className="font-sans text-sm leading-[1.45] text-ink/60 mb-4">Our solution</p>
-          <h2 className="font-serif text-ink tracking-[-0.01em] text-balance text-2xl leading-[1.15] text-ink/80">We turn finished jobs into 5-star reviews, rankings, and booked work.</h2>
-          <p className="font-sans text-lg leading-[1.45] text-ink/60 mt-4 font-medium">1Sapien is a growth partner for local service businesses across the US and Europe. We combine automated review requests, local SEO, and high-converting websites into one simple system — so you climb the rankings, earn more 5-star reviews, and fill your calendar without lifting a finger.</p>
+          <h2 className="font-serif text-ink tracking-[-0.01em] text-balance text-2xl leading-[1.15] text-ink/80">We turn finished jobs into 5-star reviews, a spotless profile, and booked work.</h2>
+          <p className="font-sans text-lg leading-[1.45] text-ink/60 mt-4 font-medium">1Sapien is a reputation growth partner for local service businesses across the US and Europe. We combine review generation, AI responses, social proof, profile management, competitor benchmarking, and weekly intelligence into one simple system — so you earn more 5-star reviews, protect your profile, and fill your calendar without lifting a finger.</p>
           <p className="font-sans text-lg leading-[1.45] text-ink/60 mt-4 font-medium">Our services include:</p>
         </Reveal>
       </div>

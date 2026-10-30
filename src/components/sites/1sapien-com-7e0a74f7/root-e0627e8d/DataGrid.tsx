@@ -11,21 +11,39 @@ type DataItem = {
 const items: DataItem[] = [
   {
     image: `${IMAGE_ROOT}m1.avif`,
-    title: "Automated Reviews",
+    title: "Review Generation",
     description:
-      "Review requests go out automatically after every job, with a one-tap link to your Google profile. We reply to every review and intercept negative feedback — unhappy customers go to a private form first.",
+      "Personalized SMS and email requests after every job — timed around quiet hours, with no repeat asks.",
   },
   {
     image: `${IMAGE_ROOT}m2.avif`,
-    title: "Local SEO",
+    title: "AI Review Responses",
     description:
-      "We optimize your Google Business Profile, your site, and your local listings so you climb the map 3-pack and outrank competitors — plus a monthly competitor and rank tracking report showing exactly where you beat them.",
+      "Every review answered in your brand voice. Positive ones post automatically; tough ones wait for your OK.",
   },
   {
     image: `${IMAGE_ROOT}m3.avif`,
-    title: "Websites That Convert",
+    title: "Social Proof",
     description:
-      "A fast, mobile-first website built to turn visitors into booked jobs, with lead-capture forms, online booking, and instant follow-up.",
+      "Five-star reviews become branded Instagram and Facebook posts, published without the busywork.",
+  },
+  {
+    image: `${IMAGE_ROOT}m4.avif`,
+    title: "Profile Management",
+    description:
+      "Hours, descriptions, and posts stay accurate — with alerts the moment Google changes something.",
+  },
+  {
+    image: `${IMAGE_ROOT}landing-hero.webp`,
+    title: "Competitor Benchmarking",
+    description:
+      "A weekly local-pack scoreboard: your rank, ratings, and who is gaining on you.",
+  },
+  {
+    image: `${IMAGE_ROOT}man-typing.webp`,
+    title: "Review Intelligence",
+    description:
+      "A Monday digest of what customers loved, what cost you stars, and what to fix this week.",
   },
 ];
 

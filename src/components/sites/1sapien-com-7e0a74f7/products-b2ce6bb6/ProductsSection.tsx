@@ -21,104 +21,142 @@ type Product = {
 
 const products: Product[] = [
   {
-    eyebrow: "Local Search Agent",
-    title: "Local SEO for Multi-Location Brands",
+    eyebrow: "Review Generation",
+    title: "Turn Every Completed Job into a Google Review",
     color: "rgba(0, 0, 0, 0.8)",
-    lead: "Optimizes every location continuously — so you don’t just show up in local search, you get chosen when customers ask AI where to go.",
+    lead: "We text happy customers when the job is done and make leaving a Google review one tap.",
     body: [
-      "Your customers don’t just Google you anymore. They ask an AI assistant which location to go to, and the answer is assembled from your local listings, your reviews, and your local pages. If those signals are thin or inconsistent, you don’t get recommended.",
+      "Personalized SMS and email requests, sent at the right moment, with quiet hours and repeat prevention built in. One gentle reminder follows only if no review appears.",
     ],
     features: [
       {
-        title: "Optimizes for how AI reads your locations",
-        description:
-          "Local Search Agent structures categories, attributes, descriptions, and Q&A the way answer engines actually parse them — so your locations become the source AI cites.",
+        title: "Asked at the right moment",
+        description: "Requests go out after the job is completed, while the experience is still fresh.",
       },
       {
-        title: "Tracks visibility across apps",
-        description:
-          "See where your brand surfaces across local search, maps, and AI-driven discovery, benchmarked location by location.",
+        title: "SMS first, email backup",
+        description: "A direct review link by text, with email for customers who prefer the inbox.",
       },
       {
-        title: "Feeds on signals competitors ignore",
-        description:
-          "Review themes and social engagement from Reputation Agent and Social Agent flow into search optimizations — cross-channel context no listings tool can replicate.",
+        title: "Never asked twice",
+        description: "Cooldown windows and quiet hours keep every ask welcome.",
       },
     ],
   },
   {
-    eyebrow: "Reputation Agent",
-    title: "AI Reputation and Review Management for Every Location",
+    eyebrow: "AI Review Responses",
+    title: "Every Google Review Answered in Your Brand Voice",
     color: "rgb(173, 101, 101)",
-    lead: "Respond faster, rank higher, win more customers.",
+    lead: "Positive reviews are answered automatically. Tough ones wait for your OK.",
     body: [
-      "It monitors reviews on Google, Yelp, Facebook, and more, replies in your brand voice under your approval rules, and routes only what needs a person to your team. It also surveys customers after the visit, so problems get resolved before they become one-star reviews.",
-      "Review management software monitors customer reviews across platforms, helps teams respond, and reports on reputation by location. Most online review software stops at the dashboard — your team still reads, drafts, and approves every reply. Genius Reputation Agent brings AI review management that does the work: it writes and publishes replies in your brand voice, follows your escalation rules, and hands your team only the reviews that need a person.",
+      "New reviews are drafted in your voice within hours. Four and five star reviews with no complaints post on their own; anything lower or risky is routed to you for one-click approval, with every reply logged.",
     ],
     features: [
       {
-        title: "Trained on your brand, not just prompted",
-        description:
-          "Reputation Agent replies to every review at every location within hours, not weeks — turning the reviews customers read before choosing into a reason to choose you.",
+        title: "Written in your voice",
+        description: "Replies sound like your business, not a template.",
       },
       {
-        title: "Escalates reviews that matter",
-        description:
-          "Every response follows your voice and your rules. Only the reviews that need human judgment reach your team; the rest are handled.",
+        title: "Positive reviews on autopilot",
+        description: "Low-risk reviews are answered and published without you lifting a finger.",
       },
       {
-        title: "Save costs with autonomous execution",
-        description:
-          "Reputation Agent handles the work of hundreds across every location and network — without added headcount or another login.",
+        title: "Tough reviews wait for you",
+        description: "Low ratings and sensitive topics come to you, tagged by sentiment and cause.",
       },
     ],
   },
   {
-    eyebrow: "Social Agent",
-    title: "Your Social Media Strategist",
+    eyebrow: "Social Proof",
+    title: "Turn Five-Star Reviews into Branded Social Posts",
     color: "rgb(42, 140, 83)",
-    lead: "Smarter social media for multi-location brands — a brand-trained teammate for strategy, content creation, and community engagement, driving faster, more consistent results across every location.",
+    lead: "Your best Google reviews become branded Instagram posts — your reputation markets itself.",
     body: [
-      "Genius Social Agent plans, creates, and engages for every location — lowering costs while driving stronger local engagement and revenue.",
+      "Each new five-star review becomes a branded quote card with the reviewer’s name, stars, and a snippet, published to Instagram and Facebook and marked as posted so nothing repeats.",
     ],
     features: [
       {
-        title: "Boost revenue with local relevance",
-        description:
-          "Social Agent publishes tailored posts and replies to engagements, so your brand connects with local audiences and drives sales.",
+        title: "Branded quote cards",
+        description: "Every five-star review becomes a polished 1080×1080 post.",
       },
       {
-        title: "Protect brand with consistency",
-        description:
-          "Every post and engagement response follows your brand guidelines, keeping your voice aligned across all locations.",
+        title: "Published automatically",
+        description: "Approved reviews go straight to Instagram and Facebook.",
       },
       {
-        title: "Save costs with automation",
-        description:
-          "Social Agent scales across all your locations, working 24/7 to execute social media tasks for you.",
+        title: "No repeats",
+        description: "Posted reviews are tracked and skipped, with a notification when a post goes live.",
       },
     ],
-    extra: {
-      title: "Social Agent is your expert social media manager",
-      lead: "Working around the clock and completing your social media tasks.",
-      items: [
-        {
-          title: "Creates & publishes posts",
-          description:
-            "Social Agent uses local insights to publish on-brand, compelling posts across locations and networks.",
-        },
-        {
-          title: "Generates videos & images",
-          description:
-            "Social Agent generates tailored videos and images to connect more deeply with local audiences.",
-        },
-        {
-          title: "Replies to engagements",
-          description:
-            "Social Agent responds to social engagements in your brand voice, escalating only exceptions for review.",
-        },
-      ],
-    },
+  },
+  {
+    eyebrow: "Profile Management",
+    title: "Keep Your Google Profile Accurate and Protected",
+    color: "rgb(101, 124, 173)",
+    lead: "We keep your profile accurate and alert you the moment Google changes something.",
+    body: [
+      "Hours, descriptions, attributes, and posts stay matched to your master record. Drift, flags, and listing issues surface immediately, alongside views, searches, and actions.",
+    ],
+    features: [
+      {
+        title: "Always matches your record",
+        description: "Core details are checked and corrected against your approved source.",
+      },
+      {
+        title: "Issues surface early",
+        description: "Google changes and listing flags reach you the day they happen.",
+      },
+      {
+        title: "Performance you can see",
+        description: "Views, searches, and actions tracked over time.",
+      },
+    ],
+  },
+  {
+    eyebrow: "Competitive Benchmarking",
+    title: "See Exactly Where You Stand in Local Search",
+    color: "rgb(196, 148, 74)",
+    lead: "A weekly scoreboard: where you rank, how you compare, and who is gaining on you.",
+    body: [
+      "We scan the local pack for your search term and city, then report every competitor’s rating, review count, and position — with an alert when a rival overtakes you.",
+    ],
+    features: [
+      {
+        title: "The full local pack",
+        description: "Every rival competing for your search, ranked.",
+      },
+      {
+        title: "Gaps stated plainly",
+        description: "Star and review-count gaps against each competitor.",
+      },
+      {
+        title: "Overtake alerts",
+        description: "Know the moment a competitor passes you on reviews.",
+      },
+    ],
+  },
+  {
+    eyebrow: "Review Intelligence",
+    title: "A Weekly Read on What Customers Really Think",
+    color: "rgb(120, 108, 160)",
+    lead: "Every Monday, a 60-second read on what customers loved and what cost you stars.",
+    body: [
+      "New reviews, average rating, and response rate at a glance, plus the root causes behind lost stars and one clear thing to fix this week.",
+    ],
+    features: [
+      {
+        title: "The numbers that matter",
+        description: "New reviews, average rating, and response rate, week over week.",
+      },
+      {
+        title: "Stars lost, explained",
+        description: "Root-cause tags show what cost you — wait time, staff, pricing.",
+      },
+      {
+        title: "One next step",
+        description: "Each digest ends with a single priority to fix.",
+      },
+    ],
   },
 ];
 
@@ -132,18 +170,11 @@ export function ProductsSection() {
           </h1>
         </Reveal>
         <Reveal delay={0.05}>
-          <div className="mt-8 space-y-5">
-            <p className="font-sans text-lg leading-[1.45] text-ink/60">
-              Your customers don’t just compare you on quality anymore — they ask AI,
-              read reviews, and scroll their feed. We run three agents that turn every
-              location into one that gets found, recommended, and chosen.
-            </p>
-            <p className="font-sans text-lg leading-[1.45] text-ink/60">
-              Local Search, Reputation, and Social Agent each work a different channel,
-              and feed each other — so the signals that decide who wins local search
-              compound instead of compete.
-            </p>
-          </div>
+          <p className="mt-8 font-sans text-lg leading-[1.45] text-ink/60">
+            Six connected services that turn every location into one that gets found,
+            recommended, and chosen — review generation, AI responses, social proof,
+            profile management, competitor benchmarking, and weekly intelligence.
+          </p>
         </Reveal>
 
         <div className="mt-16 space-y-16 md:space-y-20">

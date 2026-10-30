@@ -22,7 +22,7 @@ export function LogoMarquee() {
             />
           ))}
         </div>
-        <p className="mt-10 text-sm leading-[1.4] text-ink/60">Powering local businesses at an affordable price</p>
+        <p className="mt-10 text-sm leading-[1.4] text-ink/60">Big-brand reputation tools, priced for local businesses</p>
       </Reveal>
     </section>
   );

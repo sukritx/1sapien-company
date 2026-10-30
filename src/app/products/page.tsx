@@ -6,7 +6,7 @@ import { ProductsSection } from "@/components/sites/1sapien-com-7e0a74f7/product
 export const metadata: Metadata = {
   title: "Products - 1Sapien",
   description:
-    "Local Search, Reputation, and Social Agent — AI that optimizes every location for local search, AI recommendations, reviews, and social engagement across every location you run.",
+    "Review generation, AI review responses, social proof, Google Business Profile management, competitor benchmarking, and weekly review intelligence — reputation services that turn every location into one that gets found, recommended, and chosen.",
 };
 
 export default function ProductsPage() {
