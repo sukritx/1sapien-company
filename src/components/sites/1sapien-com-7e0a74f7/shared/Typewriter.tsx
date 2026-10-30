@@ -13,8 +13,8 @@ export function Typewriter({ text, startDelay = 150, charMs = 36 }: TypewriterPr
 
   useEffect(() => {
     if (typeof window !== "undefined" && window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
-      setCount(text.length);
-      return;
+      const reducedMotionId = requestAnimationFrame(() => setCount(text.length));
+      return () => cancelAnimationFrame(reducedMotionId);
     }
     let rafId = 0;
     let startTime = 0;

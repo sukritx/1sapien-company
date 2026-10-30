@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.afterquery.com"),
+  metadataBase: new URL("https://www.1sapien.com"),
   title: "Google Review Growth & Reputation Services for Local Businesses",
   applicationName: "1Sapien",
   description:
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     title: "Google Review Growth & Reputation Services - 1Sapien",
     description:
       "1Sapien turns every finished job into a 5-star Google review, answers every review in your brand voice, turns reviews into social proof, protects your Google profile, and benchmarks you against local competitors — for local businesses across the US and Europe.",
-    url: "https://www.afterquery.com",
+    url: "https://www.1sapien.com",
     siteName: "1Sapien",
     images: ["/sites/afterquery-com-7e0a74f7/shared/seo/og-default.png"],
     type: "website",
