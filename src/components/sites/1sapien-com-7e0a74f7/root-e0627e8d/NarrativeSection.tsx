@@ -19,7 +19,7 @@ export function NarrativeSection() {
       <div className="mx-auto w-[min(100%_-_2rem,688px)] mt-14">
         <Reveal>
           <div className="overflow-hidden rounded-[4px] ring-1 ring-inset ring-ink/10">
-            <img src={`${IMAGE_ROOT}man-typing.webp`} alt="" width={2720} height={1161} className="h-auto w-full" />
+            <img src="/images/Flock_of_birds_taking_flight_f898101a.jpg" alt="" width={2720} height={1161} className="h-auto w-full" />
           </div>
         </Reveal>
       </div>
